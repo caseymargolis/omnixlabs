@@ -1705,3 +1705,66 @@ footer #footerBottom p {
   width: 100%;
   justify-content: end;
 }
+
+/************************************ 
+*********** BLOG LANDING PAGE *************
+*************************************/
+
+#blogMain section {
+  padding-top: max(5%, 3rem);
+  padding-bottom: max(5%, 3rem);
+}
+#blogHero {
+  padding-top: max(5%, 5rem) !important;
+  padding-bottom: max(5%, 5rem) !important;
+  color: var(--white);
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+#blogHero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+  background: linear-gradient(135deg, var(--accent), var(--secondary));
+}
+#blogHero {
+  padding-top: max(7.5%, 5rem);
+  padding-bottom: max(12.5%, 5rem);
+  background-image: url(/img/Hero_Illustration_Blue.webp);
+  background-position: 60% center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 50px;
+}
+
+#blogHero .container {
+  z-index: 1000 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#blogHero h1 {
+  font-size: 5rem;
+}
+#blogHero h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0.75rem 0;
+}
+
+#blogHero img {
+  max-height: 200px;
+}
+
+#headlinePost h3 {
+  margin-bottom: 4%;
+}
+#blogHero .row {
+  display: flex;
+  align-items: center;
+}
