@@ -1727,7 +1727,7 @@ footer #footerBottom p {
   padding-top: max(7.5%, 5rem);
   padding-bottom: max(12.5%, 5rem);
   background-image: url(/img/Hero_Illustration_Blue.webp);
-  background-position: 60% center;
+  background-position: 80% center;
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 50px;
@@ -1762,6 +1762,46 @@ footer #footerBottom p {
 #blogHero .row {
   display: flex;
   align-items: center;
+}
+
+#blogMain #headlinePost {
+  margin-top: -7%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#blogMain #headlinePost .container {
+  padding: max(3%, 5rem) max(4.5%, 1rem);
+  background: var(--gray-200);
+  border-radius: 15px;
+}
+
+@media (max-width: 991px) {
+  #blogMain #headlinePost {
+    background: var(--gray-200);
+  }
+}
+
+#blogMain #headlinePost .article-title {
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+#featuredArticles h2,
+#allArticles h2 {
+  font-family: "Montserrat", var(--font-family-body);
+  font-size: 1.8rem;
+}
+#blogMain #allArticles {
+  background: var(--gray-900);
+  color: var(--white);
+}
+
+#blogMain #showMoreBtn {
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+#blogMain #showMoreBtn:hover {
+  background: rgba(255, 255, 255, 0.15);
 }
 
 
