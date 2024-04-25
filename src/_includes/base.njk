@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KWSZNGG");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Primary Meta Tags -->
+    <title>{{ title }}</title>
+    <meta name="title" content="Machine Vision. Data. Insights | omniX labs" />
+    <meta
+      name="description"
+      content="{{ description }}"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://omnix-local.netlify.app/{{ page.url }}" />
+    <meta
+      property="og:title"
+      content="{{ title }}"
+    />
+    <meta
+      property="og:description"
+      content="{{ description }}"
+    />
+    <meta
+      property="og:image"
+      content="{{image}}"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://omnix-local.netlify.app/{{ page.url }}" />
+    <meta
+      property="twitter:title"
+      content="{{ title }}"
+    />
+    <meta
+      property="twitter:description"
+      content="{{ description }}"
+    />
+    <meta
+      property="twitter:image"
+      content="{{image}}"
+    />
+    <!-- Prevent Cache Across Browsers -->
+      {# <meta
+        http-equiv="Cache-Control"
+        content="no-cache, no-store, must-revalidate"
+      />
+      <meta http-equiv="Pragma" content="no-cache" />
+      <meta http-equiv="Expires" content="0" /> #}
+    <!-- Favicon -->
+      <link rel="icon" type="image/png" href="/img/favicon.png">
+      <!-- <link rel="manifest" href="/site.webmanifest"> -->
+      <link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#141c52">
+      <meta name="msapplication-TileColor" content="#141c52">
+      <meta name="theme-color" content="#ffffff">
+      {% include 'cdn-css.njk' %}
+      <!-- CSS Dir -->
+        <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+        <link rel="stylesheet" type="text/css" href="/css/accordion.css" />
+        <link rel="stylesheet" type="text/css" href="/css/mailer.css" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+        <link rel="canonical" href="https://omnix-local.netlify.app/{{page.url}}" />
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+      <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "omniX labs",
+            "url": "https://omnix-local.netlify.app/",
+            "contactPoint": [
+              {
+                "@type": "ContactPoint",
+                "telephone": "2156818808",
+                "contactType": "technical support",
+                "areaServed": ["US", "GU"],
+                "availableLanguage": "en"
+              },
+              {
+                "@type": "ContactPoint",
+                "telephone": "8554927477",
+                "contactType": "sales",
+                "areaServed": ["US", "GU"],
+                "availableLanguage": "en"
+              }
+            ],
+            "sameAs": [
+              "https://twitter.com/omniX_labs",
+              "https://www.linkedin.com/company/omnixlabs/",
+              "https://www.youtube.com/channel/UCrlquejpqyZUfljbOyDbvhw"
+            ]
+          }
+        </script>
+      <!-- WebSights Tracking -->
+        <script>
+          (function () {
+            var zi = document.createElement("script");
+            zi.type = "text/javascript";
+            zi.async = true;
+            zi.referrerPolicy = "unsafe-url";
+            zi.src = "https://ws.zoominfo.com/pixel/62277ad0063474001ab2a78d";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(zi, s);
+          })();
+        </script>
+  </head>
+  <body>
+          <!-- Google Tag Manager (noscript) -->
+      <noscript
+        ><iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-KWSZNGG"
+          height="0"
+          width="0"
+          style="display: none; visibility: hidden"
+        ></iframe
+      ></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    {% include 'header.njk' %}
+
+      {{ content | safe }}
+
+    {% include 'footer.njk' %}
+
+    <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+    </script>
+    {% include 'cdn-js.njk' %}
+    <!-- JS Dir -->
+      <script src="/js/main.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+      <script src="/js/search.js"></script>
+      <script>
+        $("#myTab a").on("click", function (event) {
+          event.preventDefault();
+          $(this).tab("show");
+        });
+      </script>
+      <!-- WebSights Tracking -->
+      <noscript>
+        <img
+          src="https://ws.zoominfo.com/pixel/62277ad0063474001ab2a78d"
+          width="1"
+          height="1"
+          style="display: none"
+        />
+      </noscript>
+  </body>
+</html>

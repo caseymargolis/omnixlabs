@@ -1,0 +1,112 @@
+/***** FAQ and DISTRIBUTOR FILTER*****/
+#partnerFaq .card,
+#attendantFaq .card,
+.accordion-custom .card {
+  border: none;
+  border-bottom: 1px solid var(--gray-400) !important;
+}
+#distributorFilter .card {
+  border: none;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--gray-400);
+}
+#partnerFaq .card .card-header,
+#distributorFilter .card .card-header,
+#attendantFaq .card .card-header,
+.accordion-custom .card .card-header {
+  border: none;
+  background: var(--white);
+  padding: 1.3rem 1.7rem 1.3rem 0;
+  cursor: pointer;
+}
+#partnerFaq .card .card-body p,
+#distributorFilter .card .card-body p,
+#attendantFaq .card .card-body p,
+.accordion-custom .card .card-body p {
+  margin-bottom: 3rem;
+}
+#partnerFaq .card .card-body img,
+#distributorFilter .card .card-body img,
+#attendantFaq .card .card-body img,
+.accordion-custom .card .card-body img {
+  margin-bottom: 2rem;
+}
+#partnerFaq .card .card-header h6,
+#attendantFaq .card .card-header h6,
+.accordion-custom .card .card-header h6 {
+  display: block;
+  position: relative;
+  margin-bottom: 10%;
+  font-weight: 500;
+  line-height: 1.5;
+}
+#distributorFilter .card .card-header h6 {
+  display: block;
+  position: relative;
+  margin-bottom: 10%;
+  font-size: 1.3rem;
+}
+
+#partnerFaq a,
+#distributorFilter a,
+#attendantFaq a,
+.accordion-custom a {
+  color: var(--black);
+  font-family: var(--font-family-body);
+}
+#distributorFilter a {
+  font-family: var(--font-family-body);
+  font-size: 1.25rem;
+}
+
+/* Horizontal line */
+#partnerFaq .collapsible-link::before,
+#distributorFilter .collapsible-link::before,
+#attendantFaq .collapsible-link::before,
+.accordion-custom .collapsible-link::before {
+  content: "";
+  width: 14px;
+  height: 2px;
+  background: #333;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: -1.7rem;
+  display: block;
+  transition: all 0.3s;
+}
+#distributorFilter .collapsible-link::before {
+  right: -1rem;
+}
+
+/* Vertical line */
+#partnerFaq .collapsible-link::after,
+#distributorFilter .collapsible-link::after,
+#attendantFaq .collapsible-link::after,
+.accordion-custom .collapsible-link::after {
+  content: "";
+  width: 2px;
+  height: 14px;
+  background: #333;
+  position: absolute;
+  top: calc(50% - 7px);
+  right: calc(-1.7rem + 6px);
+  display: block;
+  transition: all 0.3s;
+}
+#distributorFilter .collapsible-link::after {
+  right: calc(-1rem + 6px);
+}
+
+#partnerFaq .collapsible-link[aria-expanded="true"]::after,
+#distributorFilter .collapsible-link[aria-expanded="true"]::after,
+#attendantFaq .collapsible-link[aria-expanded="true"]::after,
+.accordion-custom .collapsible-link[aria-expanded="true"]::after {
+  transform: rotate(90deg) translateX(-1px);
+}
+
+#partnerFaq .collapsible-link[aria-expanded="true"]::before,
+#distributorFilter .collapsible-link[aria-expanded="true"]::before,
+#attendantFaq .collapsible-link[aria-expanded="true"]::before,
+.accordion-custom .collapsible-link[aria-expanded="true"]::before {
+  transform: rotate(180deg);
+}

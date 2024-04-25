@@ -1,0 +1,21 @@
+{
+  "name": "omnix",
+  "version": "1.0.0",
+  "description": "These are the starting files used by [OMNIX](https://www.omnixlabs.com/) to create the main consumer facing website. The website is built using JAMstack.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caseymargolis/omnixlabs.git"
+  },
+  "devDependencies": {
+    "-": "^0.0.1",
+    "@11ty/eleventy": "^1.0.1"
+  },
+  "dependencies": {
+    "@quasibit/eleventy-plugin-sitemap": "^2.2.0"
+  }
+}
