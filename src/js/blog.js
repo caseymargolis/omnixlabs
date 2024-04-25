@@ -156,7 +156,7 @@ searchForm.addEventListener("submit", async (e) => {
 });
 
 async function fetchResults(searchTerm) {
-  const response = await fetch(`/.netlify/functions/search?q=${searchTerm}`);
+  const response = await fetch(`/netlify/functions/search?q=${searchTerm}`);
   const results = await response.json();
 
   return results;
