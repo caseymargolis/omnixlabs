@@ -31,7 +31,7 @@ if (
 function getTwitterUrl() {
   const twitterShareBtn = document.getElementById("shareOnTwitter");
   let encodedUrl =
-    "https://ew-template-test.netlify.app" +
+    "https://omnix-local.netlify.app/" +
     encodeURIComponent(
       twitterShareBtn
         .getAttribute("data-url")

@@ -1,6 +1,6 @@
 ---
-title: Second Omnix Sample Post
-description: "See what OMNIX second sample post is about"
+title: Third Omnix Sample Post
+description: "See what OMNIX third sample post is about"
 author: Harriet Ayoade
 date: 2024-04-26T17:48:28.024Z
 tags:
@@ -10,7 +10,7 @@ tags:
   - featured
   - ICA
   - show
-image: /img/DrTzWB1V4AEMRqY.jpg
+image: /img/1_X9ZmRLtw8ZIzRpI4i5OI9A.jpg
 ---
 As [The Car Wash Show 2024](https://thecarwashshow.com/) revs up at the vibrant Music City Center in Nashville this May 13-15, EverWash is gearing up to make a splash! With an exciting [booth setup at location #832](https://s23.a2zinc.net/clients/ICA/ICA2024/public/EventMap.aspx?shMode=E&ID=1339), we're bringing our A-team to the biggest industry event of the year, and we can't wait to connect with all of the car wash owners, operators, and distributors on site!
 
