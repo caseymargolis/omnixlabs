@@ -9,7 +9,7 @@ tags:
   - b2b
   - ICA
   - show
-image: /img/1_X9ZmRLtw8ZIzRpI4i5OI9A.jpg
+image: /img/4th-img.jpeg
 ---
 As [The Car Wash Show 2024](https://thecarwashshow.com/) revs up at the vibrant Music City Center in Nashville this May 13-15, EverWash is gearing up to make a splash! With an exciting [booth setup at location #832](https://s23.a2zinc.net/clients/ICA/ICA2024/public/EventMap.aspx?shMode=E&ID=1339), we're bringing our A-team to the biggest industry event of the year, and we can't wait to connect with all of the car wash owners, operators, and distributors on site!
 
