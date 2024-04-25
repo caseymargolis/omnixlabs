@@ -5,7 +5,7 @@ const sitemap = require("@quasibit/eleventy-plugin-sitemap");
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(sitemap, {
         sitemap: {
-            hostname: "https://www.omnixlabs.com/"
+            hostname: "https://www.omnixlabs.com"
         },
     });
 

@@ -38,7 +38,7 @@ function getTwitterUrl() {
         .replace(/‘/g, "%E2%80%98")
         .replace(/’/g, "%E2%80%99")
         .replace("—", "%E2%80%94")
-    )
+    ) 
       .replace(/'/g, "%27")
       .replace(/"/g, "%22");
   encodedUrl =
