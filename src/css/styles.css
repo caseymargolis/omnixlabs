@@ -1722,6 +1722,7 @@ footer #footerBottom p {
   overflow: hidden;
   position: relative;
 }
+
 #blogHero::before {
   content: "";
   position: absolute;
@@ -1732,6 +1733,7 @@ footer #footerBottom p {
   z-index: -2;
   background: linear-gradient(135deg, var(--accent), var(--secondary));
 }
+
 #blogHero {
   padding-top: max(7.5%, 5rem);
   padding-bottom: max(12.5%, 5rem);
