@@ -10,7 +10,7 @@ tags:
   - featured
   - ICA
   - show
-image: /img/blog/omnix-labs_vehicle-analytics-platform_funding-op.webp
+image: /img/omnix-labs_vehicle-analytics-platform_funding-op.webp
 ---
 As [The Car Wash Show 2024](https://thecarwashshow.com/) revs up at the vibrant Music City Center in Nashville this May 13-15, EverWash is gearing up to make a splash! With an exciting [booth setup at location #832](https://s23.a2zinc.net/clients/ICA/ICA2024/public/EventMap.aspx?shMode=E&ID=1339), we're bringing our A-team to the biggest industry event of the year, and we can't wait to connect with all of the car wash owners, operators, and distributors on site!
 
