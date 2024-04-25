@@ -1765,9 +1765,11 @@ footer #footerBottom p {
 }
 
 #blogMain #headlinePost {
-  margin-top: -7%;
+  position: relative;
+  margin-top: -5%;
   padding-top: 0;
   padding-bottom: 0;
+  z-index: 1;
 }
 #blogMain #headlinePost .container {
   padding: max(3%, 5rem) max(4.5%, 1rem);
@@ -1775,11 +1777,144 @@ footer #footerBottom p {
   border-radius: 15px;
 }
 
-@media (max-width: 991px) {
-  #blogMain #headlinePost {
-    background: var(--gray-200);
-  }
+.article:hover {
+  box-shadow: 0px 0px 30px 15px rgba(105, 105, 105, 0.1);
+  cursor: pointer !important;
 }
+.article:hover .article-title {
+  color: var(--gray-700) !important;
+}
+.article img {
+  transition: transform 0.4s;
+}
+.article:hover img {
+  transform: scale(1.045);
+}
+.article-no-container .article {
+  background-color: transparent;
+  box-shadow: none;
+}
+.article-no-container .article .article-content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.main-article {
+  display: flex;
+  width: 100%;
+  max-width: 100% !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.article-container {
+  margin-top: max(4%, 3rem);
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.article-img-container {
+  position: relative;
+  overflow: hidden;
+  min-width: 100%;
+  padding-top: 66.66%; /* 3:2 Aspect Ratio (divide 2 by 3 = 0.6666)  */
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
+  background: var(--white);
+}
+.article-img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  text-align: center;
+}
+#newsMain .article-content {
+  padding: 7%;
+  padding-top: 1%;
+}
+.article-date,
+.article-title,
+.article-preview {
+  margin-bottom: 0.5rem !important;
+}
+.article-title {
+  color: var(--black) !important;
+  text-transform: lowercase;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+.article-date {
+  color: var(--primary);
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-top: 1.5rem;
+  margin-top: 1rem;
+}
+
+.article-preview {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-height: 25px; /* fallback */
+  max-height: 75px; /* fallback */
+  font-size: 0.95rem;
+}
+
+.article-row {
+  margin: 0 calc(-15px - var(--article-side-margin));
+}
+
+.main-article > div {
+  padding-right: 0;
+  padding-left: 0;
+}
+.main-article .article-content {
+  padding-left: 2rem;
+}
+
+.main-article .article-title {
+  font-size: 1.8rem !important;
+}
+
+.main-article img {
+  -moz-border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  border-radius: 10px !important;
+}
+.main-article .article-content .article-preview {
+  overflow: visible;
+  display: block;
+  max-height: none;
+}
+.article {
+  display: block;
+  margin: 0 var(--article-side-margin);
+  height: 100%;
+  max-width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.025);
+  transition: transform 0.2s;
+}
+
+.article-horizontal .row {
+  min-width: 100%;
+}
+.article-horizontal {
+  width: 100%;
+}
+
 
 #blogMain #headlinePost .article-title {
   font-size: 1.5rem;
@@ -1804,6 +1939,32 @@ footer #footerBottom p {
   background: rgba(255, 255, 255, 0.15);
 }
 
+
+
+@media (max-width: 991px) {
+  #blogMain #headlinePost {
+    background: var(--gray-200);
+  }
+}
+
+@media (min-width: 576px) {
+  .article-container-horizontal {
+    margin-top: max(4%, 3rem);
+    margin-bottom: 0;
+  }
+  .article-horizontal {
+    min-width: 100%;
+    display: flex !important;
+  }
+
+  .article-horizontal .article-img-container {
+    border-radius: 0;
+  }
+  .article-horizontal .article-date {
+    margin-top: 0;
+    margin-bottom: 0.5rem !important;
+  }
+}
 
 /************************************ 
 *********** ARTICLE SEARCH BAR *************

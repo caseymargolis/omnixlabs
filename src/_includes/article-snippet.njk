@@ -1,0 +1,16 @@
+<div class="col-lg-4 col-md-6 col-sm-6 article-container">
+    <a class="article" href="{{ post.url }}">
+        <div class="article-img-container">
+            <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="img-fluid" loading="lazy"/>
+        </div>
+        <div class="article-content">
+            <p class="article-date">{{ post.data.date | postDate}}</p>
+            <h4 class="article-title">
+                {{ post.data.title }}
+            </h4>
+            <p class="article-preview">
+                {{ post.data.description }}
+            </p>
+        </div>
+    </a>
+</div>
