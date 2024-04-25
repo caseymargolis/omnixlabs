@@ -1800,7 +1800,7 @@ footer #footerBottom p {
 }
 
 .main-article {
-  display: flex;
+  display: flex !important;
   width: 100%;
   max-width: 100% !important;
   background-color: transparent !important;
