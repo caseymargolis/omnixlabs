@@ -7,5 +7,6 @@ tags:
   - featured
   - post
   - blog
+image: /img/blog/first-program-year-op.webp
 ---
 Fifth Test
