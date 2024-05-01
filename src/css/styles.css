@@ -1902,6 +1902,7 @@ footer #footerBottom p {
   margin: 0 var(--article-side-margin);
   height: 100%;
   max-width: 500px;
+  width:100%;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.025);
@@ -1969,6 +1970,11 @@ footer #footerBottom p {
 /************************************ 
 *********** ARTICLE SEARCH BAR *************
 *************************************/
+
+#articleMain {
+  margin-top: 6%;
+}
+
 .article-search-form {
   position: relative;
   color: var(--white) !important;
