@@ -106,12 +106,12 @@ for (let i = 0; i < avatars.length; i++) {
       authorSocialMedia[i].href = "https://www.linkedin.com/in/toddrendle/";
       break;
     case "EverWash Newsroom":
-      avatars[i].src = "/img/everwash-newsroom.png";
+      avatars[i].src = "/img/ox_logo_white_bcg.webp";
       authorBio[i].innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur";
       authorSocialMedia[i].href = "https://www.linkedin.com/";
       break;
     default:
-      avatars[i].src = "/img/everwash-newsroom.png";
+      avatars[i].src = "/img/ox_logo_white_bcg.webp";
       authorBio[i].innerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur";
       authorSocialMedia[i].href = "https://www.linkedin.com/";
   }
