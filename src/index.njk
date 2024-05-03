@@ -253,7 +253,20 @@
       <p class="header-content">
         Where we gather our thoughts and insights about the machine learning industry and beyond.
       </p>
-      <div class="row">
+      <div class="row article-row article-no-container">
+        {# {%- for post in collections.blog | reverse -%} {%if loop.index0 <
+        3 %} {%include 'article-snippet.njk'%} {%endif%} {%- endfor -%} #} {%
+        set count = 0 %} {%- for post in collections.blog | reverse -%} {%
+        if post.data.tags.includes("blog") and count < 3 %} {% include
+        'article-snippet.njk' %} {% set count = count + 1 %} {% endif %} {%-
+        endfor -%}
+      </div>
+      <div class="row article-row article-no-container">
+        {%- for post in collections.blog | reverse -%} {% include
+        'article-snippet.njk' %} {%- endfor -%}
+      </div>
+
+      {# <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-6">
           <div class="image-box col_1">
             <img src="../img/Medium_merger.webp" class="img-fluid"/>
@@ -300,7 +313,7 @@
             </div>  
           </div>
         </div>
-      </div>
+      </div> #}
       <div class="read_more_content">
         <span><a href="/blog/">Read More</a></span>
       </div>  
