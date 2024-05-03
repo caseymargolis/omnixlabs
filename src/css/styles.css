@@ -530,6 +530,7 @@ button.navbar-toggler {
 #navbar .navbar-brand img {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+  max-width: 195px;
 }
 .navbar .nav {
   width: 100%;
@@ -1234,13 +1235,9 @@ footer {
 
 .img-footer {
   height: auto;
-  margin-left: -12.5%;
-  margin-top: -20%;
-}
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-  .img-footer {
-    margin-left: -7.5%;
-  }
+  margin-top: -17.5%;
+  max-width: 245px;
+  margin-bottom: 1.5rem;
 }
 
 footer li {
