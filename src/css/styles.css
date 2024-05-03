@@ -35,13 +35,34 @@
   src: url("font/Montserrat-Black.ttf");
 }
 
+@font-face {
+  font-family: "Baloo2 ExtraBold";
+  src: url("font/Baloo2-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Baloo2 Bold";
+  src: url("font/Baloo2-Bold.ttf");
+}
+@font-face {
+  font-family: "Baloo2 SemiBold";
+  src: url("font/Baloo2-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Baloo2 Medium";
+  src: url("font/Baloo2-Medium.ttf");
+}
+@font-face {
+  font-family: "Baloo2 Regular";
+  src: url("font/Baloo2-Regular.ttf");
+}
+
 /************************************ 
 *********** VARIABLES *************
 *************************************/
 :root {
   --font-family-headings: Nubolts Rounded;
   --font-family-headings-outline: Nubolts Rounded Outline;
-  --font-family-body: Montserrat;
+  --font-family-body: Baloo2 Regular;
   /* --font-family-nav: Montserrat;
   --font-family-nav-bold: Montserrat Black;
   --font-family-bold: Montserrat Black; */
@@ -274,7 +295,7 @@ a:hover {
   background-repeat: no-repeat;
 }
 .brand-nubolts {
-  font-family: "Nubolts Rounded";
+  font-family: "Baloo2 Bold";
   font-weight: 400;
   font-size: 6rem;
   line-height: 1.1;
