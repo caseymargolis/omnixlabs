@@ -255,65 +255,12 @@
       </p>
       <div class="row article-row article-no-container">
         {# {%- for post in collections.blog | reverse -%} {%if loop.index0 <
-        3 %} {%include 'article-snippet.njk'%} {%endif%} {%- endfor -%} #} {%
+        6 %} {%include 'article-snippet.njk'%} {%endif%} {%- endfor -%} #} {%
         set count = 0 %} {%- for post in collections.blog | reverse -%} {%
-        if post.data.tags.includes("blog") and count < 3 %} {% include
+        if post.data.tags.includes("blog") and count < 6 %} {% include
         'article-snippet.njk' %} {% set count = count + 1 %} {% endif %} {%-
         endfor -%}
       </div>
-      <div class="row article-row article-no-container">
-        {%- for post in collections.blog | reverse -%} {% include
-        'article-snippet.njk' %} {%- endfor -%}
-      </div>
-
-      {# <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="image-box col_1">
-            <img src="../img/Medium_merger.webp" class="img-fluid"/>
-            <div class="info-box">
-              <h5>EverWash acquires omniX Labs</h5>
-              <p>EverWash, the US leader in car wash membership and subscription management, announced that it has acquired omniX Labs, an industry-leading real-time vehicle analytics and Machine Learning (ML) platform.</p>
-              <a class="labs" href="https://omnixlabs.medium.com/" target="_blank">omniX labs</a>
-              <a class="article_info" href="https://omnixlabs.medium.com/everwash-acquires-omnix-labs-591289db327e" target="_blank">Nov 16 •  2 min read</a>
-            </div>  
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="image-box col_2">
-            <img src="../img/oil.webp" class="img-fluid"/>
-            <div class="info-box">
-              <h5>Changing the experience of oil and lube stores</h5>
-              <p>Compared to a fast food drive-thru that serve hundreds of customers daily, oil and lube stores are under greater pressure to maximize the quality of each touchpoint.</p>
-              <a class="labs" href="https://omnixlabs.medium.com/" target="_blank">omniX labs</a>
-              <a class="article_info" href="https://omnixlabs.medium.com/changing-the-experience-of-oil-and-lube-stores-51ada2fb587f" target="_blank">Jun 10  •  3 min read</a>
-            </div>  
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="image-box col_1">
-            <img src="../img/carwash_line.webp" class="img-fluid"/>
-            <div class="info-box">
-              <h5>Long lines: a sign of prosperity or cause for concern?</h5>
-              <p>Americans spend an aggregated 37 billion hours waiting in line — each year! The queuing experience impacts how prospective customers evaluate a business.</p>
-              <a class="labs" href="https://omnixlabs.medium.com/" target="_blank">omniX labs</a>
-              <a class="article_info" href="https://omnixlabs.medium.com/long-lines-a-sign-of-prosperity-or-cause-for-concern-5fe55aed85e7" target="_blank">Feb 16  •  4 min read</a>
-            </div>  
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="image-box col_2">
-            <img src="../img/1_Q_k8qU4BIjmgt0xtnTZJew.webp" class="img-fluid"/>
-            <div class="info-box">
-              <h5>A smarter approach to operations management</h5>
-              <p>With improved technology to capture insights and a seamless way to be notified in real-time, omniX labs is helping to make the science of operations easier to master.</p>
-              <a class="labs" href="https://omnixlabs.medium.com/" target="_blank">omniX labs</a>
-              <a class="article_info" href="https://omnixlabs.medium.com/a-smarter-approach-to-operations-management-756863d8e64e" target="_blank">Nov 24  •  3 min read</a>
-            </div>  
-          </div>
-        </div>
-      </div> #}
       <div class="read_more_content">
         <span><a href="/blog/">Read More</a></span>
       </div>  
