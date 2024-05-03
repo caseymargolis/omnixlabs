@@ -835,11 +835,6 @@ button.navbar-toggler {
 #omnixBody h1 {
   font-size: 36px;
 }
-@media (max-width: 576px) {
-  #omnixBody h1 {
-    font-size: 30px;
-  }
-}
 #omnixBody h3 {
   margin-bottom: 4%;
 }
