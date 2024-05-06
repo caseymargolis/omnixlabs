@@ -953,6 +953,7 @@ button.navbar-toggler {
 }
 #omnixHow .images-group .image-box {
   padding: 30px;
+  max-width: 200px;
 }
 #omnixHow .box-shadow {
   margin-top: 5%;
