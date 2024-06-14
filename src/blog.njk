@@ -30,6 +30,7 @@ layout: 'base.njk'
       </div>
     </div>
   </section>
+
   <section id="featuredArticles">
     <div class="container">
       <h2>Featured Stories</h2>
@@ -43,6 +44,7 @@ layout: 'base.njk'
       </div>
     </div>
   </section>
+
   <section id="allArticles">
     <div class="container on-scroll-animation slide-up">
       <h2>Read More</h2>
@@ -50,7 +52,7 @@ layout: 'base.njk'
         {%- for post in collections.blog | reverse -%} {% include
         'article-snippet.njk' %} {%- endfor -%}
       </div>
-      <button id="showMoreBtn" class="btn">Show More +</button>
+      <div class="showMore-btn"><button id="showMoreBtn" class="btn">Show More +</button></div>
       {# Search Form #} {#
       <form id="searchForm" action="/blog/search" method="GET">
         <input type="text" name="q" placeholder="Search..." />

@@ -16,7 +16,7 @@ collections:
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string", required: false}
-      - {label: "Author", name: "author", widget: "select", options: ["Harriet Ayoade", "Max Pulcini", "Nash Goudie", "Matthew Dimbat", "Yamilette Roman", "Ryan Caldwell", "Mike Christie", "Rachel Fry", "EverWash Newsroom"]}
+      - {label: "Author", name: "author", widget: "select", options: ["Harriet Ayoade", "Max Pulcini", "Nash Goudie", "Matthew Dimbat", "Yamilette Roman", "Ryan Caldwell", "Mike Christie", "Rachel Fry", "EverWash Newsroom", "omniX Newsroom", "Anoop Kanthan", "Ofer Sadka"]}
       - {label: "Publish Date", name: "date", widget: "datetime", required: false}
       - {label: "Tags", name: "tags", widget: "list", default: ["post", "blog"]}
       - {label: "Feature Image", name: "image", widget: "image", required: false}
@@ -31,7 +31,7 @@ collections:
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string", required: false}
-      - {label: "Author", name: "author", widget: "select", options: ["Harriet Ayoade", "Max Pulcini", "Nash Goudie", "Matthew Dimbat", "Yamilette Roman", "Ryan Caldwell", "Mike Christie", "Rachel Fry", "EverWash Newsroom"]}
+      - {label: "Author", name: "author", widget: "select", options: ["Harriet Ayoade", "Max Pulcini", "Nash Goudie", "Matthew Dimbat", "Yamilette Roman", "Ryan Caldwell", "Mike Christie", "Rachel Fry", "EverWash Newsroom", "omniX Newsroom", "Anoop Kanthan", "Ofer Sadka"]}
       - {label: "Publish Date", name: "date", widget: "datetime", required: false}
       - {label: "Tags", name: "tags", widget: "list", default: ["post", "newsroom"]}
       - {label: "Feature Image", name: "image", widget: "image", required: false}
