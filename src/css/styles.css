@@ -2420,5 +2420,14 @@ footer #footerBottom p {
   line-height: 1.35;
 }
 @media (max-width: 991px) {
-  
+  #oilsolutionsSection .row .img-box {
+    flex: none;
+  }
+  #oilsolutionsSection .row .img-box img {
+    min-height: auto;
+  }
+  #oilsolutionsSection .row .info-box {
+    flex: none;
+    padding: 30px 15px;
+  }
 }
