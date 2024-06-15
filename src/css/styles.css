@@ -2386,3 +2386,18 @@ footer #footerBottom p {
 
 
 /* ---------- Oil Change Page ---------- */
+#oilsolutionsSection .container {
+  width: 100%;
+}
+#oilsolutionsSection .row {
+  background-color: #000;
+}
+#oilsolutionsSection .row h3 {
+  font-size: 36.75px;
+}
+#oilsolutionsSection .row p {
+  font-size: 18.05px;
+}
+#oilsolutionsSection .row .info-box {
+  padding: 5% 5% 5% 0;
+}
