@@ -2399,9 +2399,10 @@ footer #footerBottom p {
   padding: 0;
 }
 #oilsolutionsSection .row .img-box img {
-  min-height: 500px;
+  min-height: 515px;
 }
 #oilsolutionsSection .row .info-box {
+  display: flex;
   flex-wrap: wrap;
   gap: 30px;
   align-content: center;
