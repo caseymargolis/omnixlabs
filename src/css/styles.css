@@ -2435,6 +2435,9 @@ footer #footerBottom p {
     flex: none;
     padding: 30px 15px;
   }
+  #oilsolutionsSection .row h3 {
+    font-size: 30px;
+  }
 }
 
 /* Intelligent Upselling Section */
@@ -2466,7 +2469,8 @@ footer #footerBottom p {
   text-align: center;
 }
 #oilupsellingSection .img-box img {
-  max-width: 200px;
+  max-width: 185px;
+  width: 100%;
 }
 #oilupsellingSection .info-box {
   display: flex;
@@ -2485,7 +2489,20 @@ footer #footerBottom p {
   font-size: 16.5px;
   color: #434343;
   line-height: 1.45;
+  margin-bottom: 0px;
 }
 @media (max-width: 991px) {
- 
+  #oilupsellingSection {
+    padding-top: 50px;
+    padding-bottom: 45px;
+  }
+  #oilupsellingSection h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  #oilupsellingSection .info-box {
+    position: relative;
+    top: 0;
+    transform: none;
+  }
 }
