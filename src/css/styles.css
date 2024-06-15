@@ -2388,18 +2388,36 @@ footer #footerBottom p {
 /* ---------- Oil Change Page ---------- */
 #oilsolutionsSection .container {
   width: 100%;
+  max-width: 100%;
+  padding: 0;
 }
 #oilsolutionsSection .row {
   background-color: #000;
+  margin: 0;
+}
+#oilsolutionsSection .row .img-box {
+  padding: 0;
+}
+#oilsolutionsSection .row .img-box img {
+  min-height: 500px;
+}
+#oilsolutionsSection .row .info-box {
+  flex-wrap: wrap;
+  gap: 30px;
+  align-content: center;
+  padding: 30px 30px 30px 0px;
+  max-width: 600px;
 }
 #oilsolutionsSection .row h3 {
   font-size: 36.75px;
   color: #fff;
+  font-weight: 600;
 }
 #oilsolutionsSection .row p {
   font-size: 18.05px;
-  color: #000;
+  color: #fff;
+  line-height: 1.35;
 }
-#oilsolutionsSection .row .info-box {
-  padding: 5% 5% 5% 0;
+@media (max-width: 991px) {
+  
 }
