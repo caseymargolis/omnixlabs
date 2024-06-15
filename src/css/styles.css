@@ -2391,6 +2391,21 @@ footer #footerBottom p {
 /* ------------------------------------- */
 
 /* Al-Powered Solutions Section */
+#oilvideoSection iframe {
+  height: 
+}
+@media (max-width: 991px) and (min-width: 601px) {
+  #oilvideoSection iframe {
+    height: 600px!important;
+  }
+}
+@media (max-width: 600px) {
+  #oilvideoSection iframe {
+    height: 450px!important;
+  }
+}
+
+/* Al-Powered Solutions Section */
 #oilsolutionsSection .container {
   width: 100%;
   max-width: 100%;
