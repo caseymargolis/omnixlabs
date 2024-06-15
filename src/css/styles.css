@@ -2385,7 +2385,12 @@ footer #footerBottom p {
 }
 
 
+
+/* ------------------------------------- */
 /* ---------- Oil Change Page ---------- */
+/* ------------------------------------- */
+
+/* Al-Powered Solutions Section */
 #oilsolutionsSection .container {
   width: 100%;
   max-width: 100%;
@@ -2430,4 +2435,37 @@ footer #footerBottom p {
     flex: none;
     padding: 30px 15px;
   }
+}
+
+/* Intelligent Upselling Section */
+#oilupsellingSection {
+  padding-top: max(5%, 5rem);
+  padding-bottom: max(5%, 5rem);
+  background-image: url(/img/oil-lube/oil-upselling-banner.png);
+  background-position: center bottom;
+  background-size: cover;
+}
+#oilupsellingSection h2 {
+  font-size: 43.05px;
+  color: #000;
+  font-weight: 600;
+}
+#oilupsellingSection .row {
+  background: #fff;
+  border-radius: 15px;
+  webkit-box-shadow: 0px 5px 10px 5px rgba(225, 225, 225, 1);
+  -moz-box-shadow: 0px 5px 10px 5px rgba(225, 225, 225, 1);
+  box-shadow: 0px 5px 10px 5px rgba(225, 225, 225, 1);
+  margin-top: 30px;
+  padding: 30px;
+}
+#oilupsellingSection .info-box h4 {
+  font-size: 22.85px;
+  color: #1233AF;
+  font-weight: 600;
+}
+#oilupsellingSection .info-box p {
+  font-size: 16.5px;
+  color: #434343;
+  line-height: 1.45;
 }
