@@ -2454,7 +2454,7 @@ footer #footerBottom p {
   font-size: 43.05px;
   color: #000;
   font-weight: 600;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 #oilupsellingSection .row {
   background: #fff;
@@ -2509,4 +2509,13 @@ footer #footerBottom p {
     top: 0;
     transform: none;
   }
+}
+
+/* Hitting Service Section */
+#hittingserviceSection {
+  padding-top: max(2.5%, 5.5rem);
+  padding-bottom: max(2.5%, 5.5rem);
+  background-image: url(/img/oil-lube/oil-hitting-background.png);
+  background-position: center bottom;
+  background-size: cover;
 }
