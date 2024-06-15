@@ -2500,6 +2500,10 @@ footer #footerBottom p {
     font-size: 35px;
     margin-bottom: 30px;
   }
+  #oilupsellingSection .img-box img {
+    max-width: 150px;
+    margin-bottom: 30px;
+  }
   #oilupsellingSection .info-box {
     position: relative;
     top: 0;
