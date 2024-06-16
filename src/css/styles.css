@@ -2741,7 +2741,7 @@ footer #footerBottom p {
   width: 100%;
 }
 #satisfactionSection .info-box {
-  padding: 7.5% 2.5% 15% 10%;
+  padding: 7.5% 2.5% 13.5% 10%;
 }
 #satisfactionSection h2 {
   font-size: 45.35px;
@@ -2790,7 +2790,6 @@ footer #footerBottom p {
     flex: none;
     max-width: 100%;
     background: none;
-    padding: 0px 15px 50px;
   }
   #satisfactionSection .img-box img {
     display: block;
@@ -2799,7 +2798,7 @@ footer #footerBottom p {
 
 /* The omniX Advantage Section */
 #advantageSection {
-  padding-top: max(7.5%, 7.5rem);
+  padding-top: max(13.5%, 13.5rem);
   padding-bottom: max(5%, 5rem);
   background-image: url(/img/oil-lube/oil-gradient2-new.png);
   background-position: right top;
@@ -2829,13 +2828,15 @@ footer #footerBottom p {
 }
 @media (max-width: 1024px) {
   #advantageSection {
-    margin-top: -8.5%;
+    padding-top: max(10%, 10rem);
+    margin-top: -12.5%;
   }
 }
 @media (max-width: 767px) {
   #advantageSection {
-    padding-top: 100px;
+    padding-top: 115px;
     padding-bottom: 50px;
+    margin-top: -100px;
   }
   #advantageSection .info-box {
     gap: 20px;
