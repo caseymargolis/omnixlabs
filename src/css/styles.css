@@ -3050,6 +3050,7 @@ footer #footerBottom p {
   #carwashanalyticeSection .card-box {
     margin-top: 0px;
     padding: 35px 30px 30px;
+    gap: 7.5px;
   }
   #carwashanalyticeSection .img-box {
     padding: 0;
