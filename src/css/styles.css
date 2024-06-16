@@ -2752,16 +2752,18 @@ footer #footerBottom p {
   font-size: 20.15px;
   color: #fff;
   font-weight: 600;
-  margin-bottom: 15px;
-}
-#satisfactionSection h5 {
-  font-size: 20.15px;
-  color: #fff;
-  font-weight: 600;
   margin-top: 50px;
 }
-#billingaccuracySection .card-box p {
+#satisfactionSection p {
   color: #fff;
   font-size: 14.5px;
   line-height: 1.35;
+}
+#satisfactionSection .img-box {
+  background-image: url(/img/oil-lube/oil-customer.png);
+  background-position: center;
+  background-size: cover;
+}
+#satisfactionSection .img-box {
+  display: none;
 }
