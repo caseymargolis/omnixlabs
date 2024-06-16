@@ -3039,8 +3039,24 @@ footer #footerBottom p {
     padding-top: 50px;
     padding-bottom: 100px;
   }
+  #carwashanalyticeSection .info-box {
+    padding: 0 15px;
+  }
   #carwashanalyticeSection .col-sm-6 {
     max-width: 100%;
     flex: none;
+    margin: 0;
+  }
+  #carwashanalyticeSection .card-box {
+    margin-top: 0px;
+    padding: 35px 30px 30px;
+  }
+  #carwashanalyticeSection .img-box {
+    padding: 0;
+  }
+  #carwashanalyticeSection .img-box img {
+    max-width: 500px;
+    margin-top: 30px;
+    width: 100%;
   }  
 }
