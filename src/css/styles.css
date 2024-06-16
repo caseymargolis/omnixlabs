@@ -2641,6 +2641,10 @@ footer #footerBottom p {
   background: #000;
 }
 @media (max-width: 767px) {
+  #getstartedSection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   #getstartedSection .info-box {
     gap: 20px;
   }
