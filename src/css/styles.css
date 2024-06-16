@@ -2699,7 +2699,7 @@ footer #footerBottom p {
   color: #434343;
   font-size: 19.85px;
   font-weight: 600;
-  line-height: 1.45;
+  line-height: 1.35;
   text-align: left;
   margin-bottom: 20px;
 }
@@ -2708,4 +2708,26 @@ footer #footerBottom p {
   font-size: 15.5px;
   line-height: 1.35;
   text-align: left;
+}
+@media (max-width: 1024px) {
+  #billingaccuracySection .card-box {
+    max-width: 43.5%;
+  }
+}
+@media (max-width: 767px) {
+  #billingaccuracySection {
+    padding-top: 50px
+  }
+  #billingaccuracySection h2 {
+    font-size:35px;
+    margin-bottom: 45px;
+  }
+  #billingaccuracySection .info-box {
+    padding: 0px 15px 50px 15px;
+    gap: 25px;
+  }
+  #billingaccuracySection .card-box {
+    max-width: 100%;
+    flex: none;
+  }  
 }
