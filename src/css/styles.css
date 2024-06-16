@@ -2861,19 +2861,30 @@ footer #footerBottom p {
   color: #fff;
   font-size: 38.05px;
   font-weight: bold;
+  margin-bottom: 15px;
 }
 #businessforwardSection h6 {
   color: #fff;
   font-size: 17.5px;
   font-weight: 600;
+  max-width: 715px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 #businessforwardSection hr {
-  
+  background: #fff;
+  height: 4.5px;
+  max-width: 300px;
+  margin: auto;
 }
 #businessforwardSection p {
   color: #fff;
   font-size: 14.5px;
-  line-height: 1.35;
+  line-height: 1.45;
+  max-width: 625px;
+  margin: auto;
+  margin-top: 45px;
+  margin-bottom: 60px;
 }
 #businessforwardSection a {
   color: #061D1B;
