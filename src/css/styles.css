@@ -2801,15 +2801,18 @@ footer #footerBottom p {
 #advantageSection {
   padding-top: max(7.5%, 7.5rem);
   padding-bottom: max(5%, 5rem);
-  background-image: url(/img/oil-lube/oil-gradient2.png);
+  background-image: url(/img/oil-lube/oil-gradient2-new.png);
   background-position: right top;
   background-size: cover;
+  margin-top: -13.5%;
+  position: relative;
 }
 #advantageSection .info-box {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 30px;
-  max-width: 750px;
+  max-width: 850px;
   margin: auto;
 }
 #advantageSection h2 {
@@ -2822,6 +2825,12 @@ footer #footerBottom p {
   color: #fff;
   font-size: 20.52px;
   text-align: center;
+  line-height: 1.45;
+}
+@media (max-width: 1024px) {
+  #advantageSection {
+    margin-top: -8.5%;
+  }
 }
 @media (max-width: 767px) {
   #advantageSection {
