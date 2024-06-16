@@ -2575,6 +2575,7 @@ footer #footerBottom p {
   color: #1233AF;
   font-size: 22.85px;
   font-weight: 600;
+  margin-bottom: 15px;
 }
 #hittingserviceSection p {
   font-size: 14.5px;
@@ -2599,4 +2600,35 @@ footer #footerBottom p {
   #hittingserviceSection h2 {
     font-size: 35px;
   }
+}
+
+/* Get Started Section */
+#getstartedSection {
+  padding-top: max(5%, 5rem);
+  padding-bottom: max(5%, 5rem);
+  background: #5EDDE0;
+}
+#getstartedSection .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+#getstartedSection h2 {
+  color: #000;
+  font-size: 40.05px;
+  font-weight: 600;
+}
+#getstartedSection p {
+  color: #000;
+  font-size: 17.5px;
+  font-weight: 600;
+}
+#getstartedSection a {
+  color: #fff;
+  background: #1233AF;
+  font-size: 20.15px;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 20px;
 }
