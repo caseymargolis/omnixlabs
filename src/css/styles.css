@@ -1385,7 +1385,7 @@ footer #footerBottom p {
   }
   #navbar button {
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 0.15rem;
   }
   #navbar .nav-link {
     padding-top: 0.8rem;
@@ -2904,7 +2904,7 @@ footer #footerBottom p {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  #businessforwardSection h2 {
+  #businessforwardSection h3 {
     font-size: 32.5px;
   }
 }
