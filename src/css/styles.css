@@ -2561,6 +2561,7 @@ footer #footerBottom p {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  padding: 0 5% 0 0;
 }
 #hittingserviceSection .card-box {
   background: #fff;
@@ -2600,6 +2601,9 @@ footer #footerBottom p {
   #hittingserviceSection h2 {
     font-size: 35px;
   }
+  #hittingserviceSection .info-box {
+    padding: 0 15px;
+  }
 }
 
 /* Get Started Section */
@@ -2638,7 +2642,7 @@ footer #footerBottom p {
 }
 #getstartedSection a:hover {
   color: #1233AF;
-  background: #000;
+  background: #fff;
 }
 @media (max-width: 767px) {
   #getstartedSection {
