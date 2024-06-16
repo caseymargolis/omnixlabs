@@ -2870,6 +2870,7 @@ footer #footerBottom p {
   max-width: 715px;
   margin: auto;
   margin-bottom: 30px;
+  line-height: 1.45;
 }
 #businessforwardSection hr {
   background: #fff;
