@@ -2731,3 +2731,37 @@ footer #footerBottom p {
     flex: none;
   }  
 }
+
+/* Customer Trust & Satisfaction Section  */
+#satisfactionSection {
+  background: #1233AF;
+}
+#satisfactionSection .container {
+  max-width: 100%;
+  width: 100%;
+}
+#satisfactionSection .info-box {
+  padding: 10%;
+}
+#satisfactionSection h2 {
+  font-size: 45.35px;
+  color: #fff;
+  font-weight: 600;
+}
+#satisfactionSection h5 {
+  font-size: 20.15px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+#satisfactionSection h5 {
+  font-size: 20.15px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 50px;
+}
+#billingaccuracySection .card-box p {
+  color: #fff;
+  font-size: 14.5px;
+  line-height: 1.35;
+}
