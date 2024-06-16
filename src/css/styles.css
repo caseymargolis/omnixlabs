@@ -2608,21 +2608,25 @@ footer #footerBottom p {
   padding-bottom: max(5%, 5rem);
   background: #5EDDE0;
 }
-#getstartedSection .row {
+#getstartedSection .info-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  max-width: 750px;
+  margin: auto;
 }
 #getstartedSection h2 {
   color: #000;
   font-size: 40.05px;
   font-weight: 600;
+  text-align: center;
 }
 #getstartedSection p {
   color: #000;
   font-size: 17.5px;
   font-weight: 600;
+  text-align: center;
 }
 #getstartedSection a {
   color: #fff;
@@ -2630,5 +2634,17 @@ footer #footerBottom p {
   font-size: 20.15px;
   font-weight: 600;
   border-radius: 30px;
-  padding: 10px 20px;
+  padding: 12.5px 30px;
+}
+#getstartedSection a:hover {
+  color: #1233AF;
+  background: #000;
+}
+@media (max-width: 767px) {
+  #getstartedSection .info-box {
+    gap: 20px;
+  }
+  #getstartedSection h2 {
+    font-size: 35px;
+  }
 }
