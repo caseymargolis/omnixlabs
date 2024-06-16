@@ -2741,7 +2741,7 @@ footer #footerBottom p {
   width: 100%;
 }
 #satisfactionSection .info-box {
-  padding: 10%;
+  padding: 7.5% 2.5% 15% 10%;
 }
 #satisfactionSection h2 {
   font-size: 45.35px;
@@ -2753,17 +2753,46 @@ footer #footerBottom p {
   color: #fff;
   font-weight: 600;
   margin-top: 50px;
+  line-height: 1.35;
 }
 #satisfactionSection p {
   color: #fff;
   font-size: 14.5px;
-  line-height: 1.35;
+  line-height: 1.45;
+  margin-top: 15px;
 }
 #satisfactionSection .img-box {
   background-image: url(/img/oil-lube/oil-customer.png);
-  background-position: center;
+  background-position: center bottom;
   background-size: cover;
 }
 #satisfactionSection .img-box img {
   display: none;
+}
+@media (max-width: 1024px) {
+  #satisfactionSection .info-box {
+    padding: 5% 1.5% 10% 5%;
+  }
+}
+@media (max-width: 767px) {
+  #satisfactionSection .info-box {
+    padding: 50px 15px 30px;
+    flex: none;
+    max-width: 100%;
+  }
+  #satisfactionSection h2 {
+    font-size: 35px;
+  }
+  #satisfactionSection h5 {
+    margin-top: 30px;
+  }
+  #satisfactionSection .img-box {
+    flex: none;
+    max-width: 100%;
+    background: none;
+    padding: 0px 15px 50px;
+  }
+  #satisfactionSection .img-box img {
+    display: block;
+  }
 }
