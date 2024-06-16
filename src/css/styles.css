@@ -2390,7 +2390,7 @@ footer #footerBottom p {
 /* ---------- Oil Change Page ---------- */
 /* ------------------------------------- */
 
-/* Al-Powered Solutions Section */
+/* video Section */
 #oilvideoSection iframe {
   margin-bottom: -7.5px;
 }
@@ -2906,5 +2906,74 @@ footer #footerBottom p {
   }
   #businessforwardSection h3 {
     font-size: 32.5px;
+  }
+}
+
+
+/* ------------------------------------- */
+/* ---------- Car Wash Page ---------- */
+/* ------------------------------------- */
+
+/* video Section */
+#carwashvideoSection iframe {
+  margin-bottom: -7.5px;
+}
+@media (max-width: 991px) and (min-width: 601px) {
+  #carwashvideoSection iframe {
+    height: 600px!important;
+  }
+}
+@media (max-width: 600px) {
+  #carwashvideoSection iframe {
+    height: 450px!important;
+  }
+}
+
+/* omniX Labs Car Wash Analytics Section */
+#carwashanalyticsSection .container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+#carwashanalyticsSection .row {
+  background-color: #000;
+  margin: 0;
+}
+#carwashanalyticsSection .row .img-box {
+  padding: 0;
+}
+#carwashanalyticsSection .row .img-box img {
+  min-height: 515px;
+}
+#carwashanalyticsSection .row .info-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-content: center;
+  padding: 30px 30px 30px 0px;
+  max-width: 600px;
+}
+#carwashanalyticsSection .row h3 {
+  font-size: 43.75px;
+  color: #fff;
+  font-weight: 600;
+}
+#carwashanalyticsSection .row h5 {
+  font-size: 25.75px;
+  color: #2DD2C9;
+}
+@media (max-width: 991px) {
+  #carwashanalyticsSection .row .img-box {
+    flex: none;
+  }
+  #carwashanalyticsSection .row .img-box img {
+    min-height: auto;
+  }
+  #carwashanalyticsSection .row .info-box {
+    flex: none;
+    padding: 30px 15px;
+  }
+  #carwashanalyticsSection .row h3 {
+    font-size: 30px;
   }
 }
