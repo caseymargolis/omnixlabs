@@ -2686,13 +2686,13 @@ footer #footerBottom p {
   webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
-  padding: 30px;
+  padding: 35px 45px 45px;
   text-align: center;
   margin: 0 1.5%;
-  max-width: 37.5%;
+  max-width: 515px;
 }
 #billingaccuracySection .card-box img {
-  max-width: 60px;
+  max-width: 55px;
   margin-bottom: 15px;
 }
 #billingaccuracySection .card-box h6 {
@@ -2708,6 +2708,11 @@ footer #footerBottom p {
   font-size: 15.5px;
   line-height: 1.35;
   text-align: left;
+}
+@media (max-width: 1120px) {
+  #billingaccuracySection .card-box {
+    max-width: 450px;
+  }
 }
 @media (max-width: 1024px) {
   #billingaccuracySection .card-box {
@@ -2727,6 +2732,7 @@ footer #footerBottom p {
     gap: 25px;
   }
   #billingaccuracySection .card-box {
+    padding: 30px;
     max-width: 100%;
     flex: none;
   }  
