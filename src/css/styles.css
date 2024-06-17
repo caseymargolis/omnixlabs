@@ -2491,10 +2491,9 @@ footer #footerBottom p {
 #oilupsellingSection .info-box {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  gap: 10px;
+  height: 100%;
+  align-content: center;
 }
 #oilupsellingSection .info-box h4 {
   font-size: 22.85px;
