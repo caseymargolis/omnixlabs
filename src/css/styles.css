@@ -3061,3 +3061,112 @@ footer #footerBottom p {
     width: 100%;
   }  
 }
+
+/* Increase Wash Revenue With Smart Analytics Section */
+#smartanalyticsSection .container{
+  max-width: 100%;
+  width: 100%;
+}
+#smartanalyticsSection .img-box {
+  
+}
+#smartanalyticsSection .info-box {
+  padding-bottom: max(5%, 5rem);
+  background-image: url(/img/oil-lube/redefined-background.png);
+  background-position: center center;
+  background-size: cover;
+  justify-content: center;
+}
+#smartanalyticsSection .card-box {
+  background: #fff;
+  border-radius: 15px;
+  webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  padding: 30px;
+  text-align: center;
+  margin: 0 1.5%;
+  max-width: 37.5%;
+}
+#smartanalyticsSection .card-box img {
+  max-width: 60px;
+  margin-bottom: 15px;
+}
+#smartanalyticsSection .card-box h6 {
+  color: #434343;
+  font-size: 26.85px;
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 25px;
+}
+#smartanalyticsSection .card-box p {
+  color: #434343;
+  font-size: 13.5px;
+  line-height: 1.35;
+  text-align: left;
+}
+#smartanalyticsSection {
+  padding-top: max(5%, 5rem);
+  padding-bottom: max(5%, 5rem);
+  background: #5EDDE0;
+}
+#smartanalyticsSection .content-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 750px;
+  margin: auto;
+}
+#smartanalyticsSection h2 {
+  color: #fff;
+  font-size: 41.35px;
+  font-weight: 600;
+  text-align: center;
+}
+#smartanalyticsSection p {
+  color: #fff;
+  font-size: 16.5px;
+  text-align: center;
+}
+#smartanalyticsSection a {
+  color: #000;
+  background: #68E1E4;
+  font-size: 24.35px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 12.5px 30px;
+}
+#smartanalyticsSection a:hover {
+  color: #68E1E4;
+  background: #000;
+}
+@media (max-width: 1024px) {
+  #smartanalyticsSection .card-box {
+    max-width: 43.5%;
+  }
+}
+@media (max-width: 767px) {
+  #smartanalyticsSection h2 {
+    font-size:35px;
+    margin-bottom: 45px;
+  }
+  #smartanalyticsSection .info-box {
+    padding: 0px 15px 50px 15px;
+    gap: 25px;
+  }
+  #smartanalyticsSection .card-box {
+    max-width: 100%;
+    flex: none;
+  } 
+  #smartanalyticsSection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #smartanalyticsSection .content-box {
+    gap: 20px;
+  }
+  #smartanalyticsSection h2 {
+    font-size: 35px;
+  } 
+}
