@@ -2570,8 +2570,8 @@ footer #footerBottom p {
   webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
-  padding: 30px;
-  max-width: 650px;
+  padding: 35px 35px 45px;
+  max-width: 575px;
 }
 #hittingserviceSection h4 {
   color: #1233AF;
