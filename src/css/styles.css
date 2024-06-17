@@ -3320,28 +3320,49 @@ footer #footerBottom p {
   font-size: 48.35px;
   color: #fff;
   font-weight: 600;
+  text-align: center;
 }
 #validationSection h4 {
   font-size: 25.75px;
   color: #2DD2C9;
   font-weight: 600;
+  text-align: center;
+  margin-bottom: 45px;
 }
 #validationSection h4 span.bottom-line {
   text-decoration: underline;
 }
 #validationSection .card-box {
-  background: #CCDCE9;
+  background: #fff;
   border-radius: 15px;
   webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   padding: 45px 60px;
+  max-width: 800px;
+  margin: auto;
 }
 #validationSection .card-box p {
   font-size: 17.5px;
   color: #434343;
+  margin-bottom: 0;
 }
 #validationSection .card-box a {
   color: #27CDC4;
   text-decoration: underline;
+}
+@media (max-width: 767px) {
+  #validationSection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #validationSection h2 {
+    font-size: 35px;
+  }
+  #validationSection h4 {
+    margin-bottom: 30px;
+  }
+  #validationSection .card-box {
+    padding: 30px;
+  }
 }
