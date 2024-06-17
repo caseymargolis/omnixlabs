@@ -2986,7 +2986,7 @@ footer #footerBottom p {
 #carwashanalyticeSection {
   background: #CCDCE9;
   padding-top: 50px;
-  padding-bottom: max(5%, 5rem);
+  padding-bottom: max(1.5%, 1.5rem);
 }
 #carwashanalyticeSection .container{
   max-width: 100%;
@@ -3037,7 +3037,7 @@ footer #footerBottom p {
 @media (max-width: 991px) {
   #carwashanalyticeSection {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 5px;
   }
   #carwashanalyticeSection .info-box {
     padding: 0 15px;
@@ -3063,16 +3063,20 @@ footer #footerBottom p {
 }
 
 /* Increase Wash Revenue With Smart Analytics Section */
+#smartanalyticsSection {
+  background: #CCDCE9;
+}
 #smartanalyticsSection .container{
   max-width: 100%;
   width: 100%;
 }
 #smartanalyticsSection .img-box {
-  
+  padding: 0;
+  border-bottom: solid 15px #68E1E4;
 }
 #smartanalyticsSection .info-box {
   padding-bottom: max(5%, 5rem);
-  background-image: url(/img/oil-lube/redefined-background.png);
+  background-image: url(/img/car-wash/redefined-background.png);
   background-position: center center;
   background-size: cover;
   justify-content: center;
@@ -3102,13 +3106,8 @@ footer #footerBottom p {
 #smartanalyticsSection .card-box p {
   color: #434343;
   font-size: 13.5px;
-  line-height: 1.35;
+  line-height: 1.45;
   text-align: left;
-}
-#smartanalyticsSection {
-  padding-top: max(5%, 5rem);
-  padding-bottom: max(5%, 5rem);
-  background: #5EDDE0;
 }
 #smartanalyticsSection .content-box {
   display: flex;
@@ -3128,6 +3127,7 @@ footer #footerBottom p {
   color: #fff;
   font-size: 16.5px;
   text-align: center;
+  line-height: 1.45;
 }
 #smartanalyticsSection a {
   color: #000;
@@ -3159,10 +3159,6 @@ footer #footerBottom p {
     max-width: 100%;
     flex: none;
   } 
-  #smartanalyticsSection {
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
   #smartanalyticsSection .content-box {
     gap: 20px;
   }
