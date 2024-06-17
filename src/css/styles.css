@@ -3295,4 +3295,11 @@ footer #footerBottom p {
   #corfeaturesSection div.reverse-row {
     flex-direction: column-reverse;
   }
+  #corfeaturesSection .img-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    transform: none;
+  }
 }
