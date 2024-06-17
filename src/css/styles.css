@@ -3415,10 +3415,13 @@ footer #footerBottom p {
 }
 @media (max-width: 767px) {
   #startedSection {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
   #startedSection h3 {
-    font-size: 32.5px;
+    font-size: 30px;
+  }
+  #startedSection hr {
+    max-width: 245px;
   }
 }
