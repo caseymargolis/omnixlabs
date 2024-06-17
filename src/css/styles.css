@@ -3080,6 +3080,7 @@ footer #footerBottom p {
   background-position: center center;
   background-size: cover;
   justify-content: center;
+  margin-top: -10%;
 }
 #smartanalyticsSection .card-box {
   background: #fff;
@@ -3101,7 +3102,9 @@ footer #footerBottom p {
   font-size: 26.85px;
   font-weight: 600;
   line-height: 1.35;
-  margin-bottom: 25px;
+  margin-bottom: 25px !important;
+  max-width: 500px;
+  margin: auto;
 }
 #smartanalyticsSection .card-box p {
   color: #434343;
@@ -3114,8 +3117,9 @@ footer #footerBottom p {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  max-width: 750px;
+  max-width: 1000px;
   margin: auto;
+  margin-top: 75px;
 }
 #smartanalyticsSection h2 {
   color: #fff;
@@ -3135,7 +3139,7 @@ footer #footerBottom p {
   font-size: 24.35px;
   font-weight: bold;
   border-radius: 30px;
-  padding: 12.5px 30px;
+  padding: 10px 45px;
 }
 #smartanalyticsSection a:hover {
   color: #68E1E4;
@@ -3147,10 +3151,6 @@ footer #footerBottom p {
   }
 }
 @media (max-width: 767px) {
-  #smartanalyticsSection h2 {
-    font-size:35px;
-    margin-bottom: 45px;
-  }
   #smartanalyticsSection .info-box {
     padding: 0px 15px 50px 15px;
     gap: 25px;
@@ -3160,7 +3160,8 @@ footer #footerBottom p {
     flex: none;
   } 
   #smartanalyticsSection .content-box {
-    gap: 20px;
+    gap: 15px;
+    margin-top: 45px;
   }
   #smartanalyticsSection h2 {
     font-size: 35px;
