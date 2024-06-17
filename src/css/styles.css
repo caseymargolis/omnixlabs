@@ -3368,38 +3368,40 @@ footer #footerBottom p {
 }
 
 /* Get Started Section */
-#getstartedSection {
+#startedSection {
   padding-top: max(6.5%, 6.5rem);
   padding-bottom: max(6.5%, 6.5rem);
   background-image: url(/img/car-wash/carwash-getstarted.png);
   background-position: center;
   background-size: cover;
 }
-#getstartedSection .info-box {
+#startedSection .info-box {
   text-align: center;
 }
-#getstartedSection h3 {
+#startedSection h3 {
   color: #fff;
+  width: 100%;
   font-size: 35.05px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: -10px;
 }
-#getstartedSection hr {
+#startedSection hr {
   background: #27CDC4;
   height: 3.5px;
   max-width: 300px;
   margin: auto;
+  width: 100%;
 }
-#getstartedSection p {
+#startedSection p {
   color: #fff;
   font-size: 19.5px;
   line-height: 1.45;
-  max-width: 625px;
+  max-width: 750px;
   margin: auto;
-  margin-top: 45px;
-  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
-#getstartedSection a {
+#startedSection a {
   color: #061D1B;
   background: #68E1E4;
   font-size: 24.35px;
@@ -3407,16 +3409,16 @@ footer #footerBottom p {
   border-radius: 30px;
   padding: 10px 45px;
 }
-#getstartedSection a:hover {
+#startedSection a:hover {
   color: #68E1E4;
   background: #061D1B;
 }
 @media (max-width: 767px) {
-  #getstartedSection {
+  #startedSection {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  #getstartedSection h3 {
+  #startedSection h3 {
     font-size: 32.5px;
   }
 }
