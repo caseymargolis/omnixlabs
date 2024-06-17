@@ -2858,9 +2858,11 @@ footer #footerBottom p {
 #businessforwardSection {
   padding-top: max(6.5%, 6.5rem);
   padding-bottom: max(6.5%, 6.5rem);
-  background-image: url(/img/oil-lube/oil-getstarted.png);
+  background-image: url(/img/oil-lube/oil-getstarted-wide.png);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #000;
 }
 #businessforwardSection .info-box {
   text-align: center;
@@ -2882,7 +2884,7 @@ footer #footerBottom p {
 }
 #businessforwardSection hr {
   background: #fff;
-  height: 4.5px;
+  height: 3.5px;
   max-width: 300px;
   margin: auto;
 }
@@ -2901,7 +2903,7 @@ footer #footerBottom p {
   font-size: 25.35px;
   font-weight: bold;
   border-radius: 30px;
-  padding: 12.5px 30px;
+  padding: 10px 35px;
 }
 #businessforwardSection a:hover {
   color: #68E1E4;
