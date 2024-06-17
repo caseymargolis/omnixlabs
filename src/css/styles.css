@@ -3097,11 +3097,10 @@ footer #footerBottom p {
   max-width: 60px;
   margin-bottom: 15px;
 }
-#smartanalyticsSection .card-box h6 {
+#smartanalyticsSection .card-box h5 {
   color: #434343;
   font-size: 26.85px;
   font-weight: 600;
-  line-height: 1.35;
   margin-bottom: 25px !important;
   max-width: 500px;
   margin: auto;
@@ -3166,4 +3165,60 @@ footer #footerBottom p {
   #smartanalyticsSection h2 {
     font-size: 35px;
   } 
+}
+
+/* Predictive Power at Your Fingertips Section */
+#fingertipsSection .container {
+  max-width: 100%;
+  width: 100%;
+}
+#fingertipsSection .info-box {
+  padding: 7.5% 2.5% 7.5% 10%;
+  background-image: url(/img/car-wash/carwash-fingertips-banner.png);
+  background-position: center;
+  background-size: cover;
+}
+#fingertipsSection h2 {
+  font-size: 46.5px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+#fingertipsSection p {
+  color: #fff;
+  font-size: 15.5px;
+  line-height: 1.45;
+}
+#fingertipsSection .img-box {
+  background-image: url(/img/car-wash/fingertips.png);
+  background-position: center;
+  background-size: cover;
+}
+#fingertipsSection .img-box img {
+  display: none;
+}
+@media (max-width: 1024px) {
+  #fingertipsSection .info-box {
+    padding: 5% 1.5% 5% 5%;
+  }
+}
+@media (max-width: 767px) {
+  #fingertipsSection .info-box {
+    padding: 50px 15px 30px;
+    flex: none;
+    max-width: 100%;
+  }
+  #fingertipsSection h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  
+  #fingertipsSection .img-box {
+    flex: none;
+    max-width: 100%;
+    background: none;
+  }
+  #fingertipsSection .img-box img {
+    display: block;
+  }
 }
