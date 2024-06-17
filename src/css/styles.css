@@ -3173,7 +3173,7 @@ footer #footerBottom p {
   width: 100%;
 }
 #fingertipsSection .info-box {
-  padding: 7.5% 2.5% 7.5% 10%;
+  padding: 7.5% 5% 7.5% 10%;
   background-image: url(/img/car-wash/carwash-fingertips-banner.png);
   background-position: center;
   background-size: cover;
@@ -3182,12 +3182,11 @@ footer #footerBottom p {
   font-size: 46.5px;
   color: #fff;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 #fingertipsSection p {
   color: #fff;
   font-size: 15.5px;
-  line-height: 1.45;
 }
 #fingertipsSection .img-box {
   background-image: url(/img/car-wash/fingertips.png);
@@ -3199,7 +3198,7 @@ footer #footerBottom p {
 }
 @media (max-width: 1024px) {
   #fingertipsSection .info-box {
-    padding: 5% 1.5% 5% 5%;
+    padding: 5% 3.5% 5% 5%;
   }
 }
 @media (max-width: 767px) {
@@ -3210,15 +3209,86 @@ footer #footerBottom p {
   }
   #fingertipsSection h2 {
     font-size: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   
   #fingertipsSection .img-box {
     flex: none;
     max-width: 100%;
     background: none;
+    padding: 0;
   }
   #fingertipsSection .img-box img {
     display: block;
+  }
+}
+
+/* Core Products & Features Section */
+#corfeaturesSection {
+  padding-top: max(5.5%, 5.5rem);
+  padding-bottom: max(5.5%, 5.5rem);
+  background: #1233AF;
+}
+#corfeaturesSection h2 {
+  text-align: center;
+  font-size: 48.35px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+#corfeaturesSection .row {
+  margin: 0px 0px 30px;
+}
+#corfeaturesSection .img-box {
+  text-align: center;
+}
+#corfeaturesSection .img-box img {
+  max-width: 200px;
+  width: 100%;
+}
+#corfeaturesSection .info-box {
+  background: #CCDCE9;
+  border-radius: 15px;
+  webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  padding: 30px;
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); */
+}
+#corfeaturesSection .info-box h4 {
+  font-size: 22.85px;
+  color: #082523;
+  font-weight: 600;
+}
+#corfeaturesSection .info-box hr {
+  background: #1233AF;
+  height: 2.5px;
+}
+#corfeaturesSection .info-box p {
+  font-size: 12.5px;
+  color: #434343;
+}
+@media (max-width: 991px) {
+  #corfeaturesSection {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  #corfeaturesSection h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  #corfeaturesSection .img-box img {
+    max-width: 150px;
+    margin-bottom: 30px;
+  }
+  #corfeaturesSection .info-box {
+    /* position: relative;
+    top: 0;
+    transform: none; */
   }
 }
