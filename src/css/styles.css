@@ -3428,9 +3428,8 @@ footer #footerBottom p {
 
 /* The omniX-Powered Car Wash Journey Section */
 #washjourneySection {
-  background: #000;
   padding-top: max(5%, 5rem);
-  padding-top: max(7.5%, 7.5rem);
+  padding-bottom: max(5%, 5rem);
   background-image: url(/img/car-wash/carwash-journey.png);
   background-position: center;
   background-size: cover;
@@ -3441,14 +3440,17 @@ footer #footerBottom p {
 }
 #washjourneySection .info-box {
   justify-content: center;
+  margin-bottom: 45px;
 }
 #washjourneySection .content-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 0 1.05%;
+  max-width: 24.5%;
 }
 #washjourneySection .content-box h3 {
+  position: absolute;
+  top: 50%;
+  left: 17.5%;
+  transform: translate(-12.5%, -50%);
   font-size: 38.05px;
   color: #fff;
   font-weight: bold;
@@ -3462,8 +3464,8 @@ footer #footerBottom p {
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   padding: 25px;
   text-align: center;
-  margin: 0 1.5%;
-  max-width: 37.5%;
+  margin: 0 1.05%;
+  max-width: 24.5%;
 }
 #washjourneySection .card-box img {
   max-width: 100px;
@@ -3479,7 +3481,6 @@ footer #footerBottom p {
 #washjourneySection .card-box p {
   color: #434343;
   font-size: 10.5px;
-  line-height: 1.35;
   text-align: left;
 }
 @media (max-width: 1024px) {
