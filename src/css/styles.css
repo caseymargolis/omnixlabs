@@ -3445,12 +3445,11 @@ footer #footerBottom p {
 #washjourneySection .content-box {
   margin: 0 1.05%;
   max-width: 24.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #washjourneySection .content-box h3 {
-  position: absolute;
-  top: 50%;
-  left: 17.5%;
-  transform: translate(-12.5%, -50%);
   font-size: 38.05px;
   color: #fff;
   font-weight: bold;
@@ -3488,6 +3487,9 @@ footer #footerBottom p {
   #washjourneySection .content-box, #washjourneySection .card-box {
     max-width: 29.5%;
   }
+  #washjourneySection .info-box {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 767px) {
   #washjourneySection {
@@ -3496,6 +3498,8 @@ footer #footerBottom p {
   }
   #washjourneySection .info-box {
     gap: 20px;
+    padding: 0 15px;
+    margin-bottom: 20px;
   }
   #washjourneySection .content-box {
     max-width: 100%;
@@ -3504,7 +3508,8 @@ footer #footerBottom p {
   #washjourneySection .content-box h3 {
     position: relative;
     font-size:32.5px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    max-width: 450px;
   }
   #washjourneySection .card-box {
     max-width: 100%;
