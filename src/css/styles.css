@@ -2753,6 +2753,7 @@ footer #footerBottom p {
   font-size: 45.35px;
   color: #fff;
   font-weight: 600;
+  max-width: 450px;
 }
 #satisfactionSection h5 {
   font-size: 20.15px;
@@ -2766,6 +2767,7 @@ footer #footerBottom p {
   font-size: 14.5px;
   line-height: 1.45;
   margin-top: 15px;
+  max-width: 545px;
 }
 #satisfactionSection .img-box {
   background-image: url(/img/oil-lube/oil-customer.png);
