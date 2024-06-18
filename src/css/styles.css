@@ -3083,7 +3083,7 @@ footer #footerBottom p {
 #smartanalyticsSection .info-box {
   padding-bottom: max(5%, 5rem);
   background-image: url(/img/car-wash/redefined-background-wide.png);
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   justify-content: center;
   margin-top: -12.5%;
@@ -3097,7 +3097,7 @@ footer #footerBottom p {
   padding: 45px;
   text-align: center;
   margin: 0 1.5%;
-  max-width: 535px;
+  max-width: 530px;
 }
 #smartanalyticsSection .card-box img {
   max-width: 60px;
@@ -3107,7 +3107,8 @@ footer #footerBottom p {
   color: #434343;
   font-size: 26.85px;
   font-weight: 600;
-  margin-bottom: 30px;
+  max-width: 375px;
+  margin: 0 auto 30px;
 }
 #smartanalyticsSection .card-box p {
   color: #434343;
@@ -3177,20 +3178,23 @@ footer #footerBottom p {
   width: 100%;
 }
 #fingertipsSection .info-box {
-  padding: 7.5% 5% 7.5% 10%;
-  background-image: url(/img/car-wash/carwash-fingertips-banner.png);
-  background-position: center;
+  padding: 6.5%;
+  background-image: url(/img/car-wash/carwash-fingertips-banner-wide.png);
+  background-position: center bottom;
   background-size: cover;
 }
 #fingertipsSection h2 {
   font-size: 46.5px;
   color: #fff;
   font-weight: 600;
-  margin-bottom: 45px;
+  margin: 0 auto 45px;
+  max-width: 450px;
 }
 #fingertipsSection p {
   color: #fff;
   font-size: 15.5px;
+  max-width: 465px;
+  margin: auto;
 }
 #fingertipsSection .img-box {
   background-image: url(/img/car-wash/fingertips.png);
