@@ -3047,18 +3047,19 @@ footer #footerBottom p {
     padding: 0 15px;
   }
   #carwashanalyticeSection .col-sm-6 {
-    max-width: 100%;
     flex: none;
     margin: 0;
   }
   #carwashanalyticeSection .card-box {
     margin-top: 0px;
     padding: 35px 30px 30px;
-    gap: 7.5px;
+    max-width: 750px;
+    width: 100%;
   }
   #carwashanalyticeSection .video-box {
     padding: 0;
     text-align: center;
+    max-width: 100%;
   }
   #carwashanalyticeSection .video-box iframe {
     max-width: 500px;
