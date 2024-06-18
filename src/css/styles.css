@@ -3449,11 +3449,11 @@ footer #footerBottom p {
 }
 #washjourneySection .info-box {
   justify-content: center;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 #washjourneySection .content-box {
-  margin: 0 1.05%;
-  max-width: 24.5%;
+  margin: 0 15px;
+  max-width: 321.5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3473,8 +3473,8 @@ footer #footerBottom p {
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   padding: 25px;
   text-align: center;
-  margin: 0 1.05%;
-  max-width: 24.5%;
+  margin: 0 15px;
+  max-width: 321.5;
 }
 #washjourneySection .card-box img {
   max-width: 100px;
@@ -3492,12 +3492,13 @@ footer #footerBottom p {
   font-size: 10.5px;
   text-align: left;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1110px) {
   #washjourneySection .content-box, #washjourneySection .card-box {
+    margin: 0 1.05%;
     max-width: 29.5%;
   }
   #washjourneySection .info-box {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 }
 @media (max-width: 767px) {
@@ -3521,7 +3522,8 @@ footer #footerBottom p {
     max-width: 450px;
   }
   #washjourneySection .card-box {
-    max-width: 100%;
+    max-width: 450px;
     flex: none;
+    width: 100%;
   }  
 }
