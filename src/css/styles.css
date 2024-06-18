@@ -3060,11 +3060,12 @@ footer #footerBottom p {
     padding: 35px 30px 30px;
     gap: 7.5px;
   }
-  #carwashanalyticeSection .img-box {
+  #carwashanalyticeSection .video-box {
     padding: 0;
   }
   #carwashanalyticeSection .video-box iframe {
     max-width: 500px;
+    height: 300px;
     margin-top: 30px;
     width: 100%;
   }  
