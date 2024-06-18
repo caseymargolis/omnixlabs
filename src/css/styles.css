@@ -2530,7 +2530,7 @@ footer #footerBottom p {
 #hittingserviceSection {
   padding-top: max(4.5%, 4.5rem);
   padding-bottom: max(4.5%, 4.5rem);
-  background-image: url(/img/oil-lube/oil-hitting-background-wide.png);
+  background-image: url(/img/oil-lube/oil-hitting-background-blue.png);
   background-position: center;
   background-size: cover;
 }
@@ -3380,7 +3380,7 @@ footer #footerBottom p {
 #startedSection {
   padding-top: max(6.5%, 6.5rem);
   padding-bottom: max(6.5%, 6.5rem);
-  background-image: url(/img/car-wash/carwash-getstarted.png);
+  background-image: url(/img/car-wash/carwash-getstarted-wide.png);
   background-position: center;
   background-size: cover;
 }
