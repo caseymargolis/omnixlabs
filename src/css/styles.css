@@ -172,7 +172,7 @@ body {
   font-family: var(--font-family-body);
   letter-spacing: 0.05rem;
   height: 100%;
-  margin-top: 88px;
+  margin-top: 85px;
 }
 
 .d-c {
@@ -3082,11 +3082,11 @@ footer #footerBottom p {
 }
 #smartanalyticsSection .info-box {
   padding-bottom: max(5%, 5rem);
-  background-image: url(/img/car-wash/redefined-background.png);
+  background-image: url(/img/car-wash/redefined-background-wide.png);
   background-position: center center;
   background-size: cover;
   justify-content: center;
-  margin-top: -10%;
+  margin-top: -12.5%;
 }
 #smartanalyticsSection .card-box {
   background: #fff;
@@ -3094,27 +3094,25 @@ footer #footerBottom p {
   webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
-  padding: 30px;
+  padding: 45px;
   text-align: center;
   margin: 0 1.5%;
-  max-width: 37.5%;
+  max-width: 535px;
 }
 #smartanalyticsSection .card-box img {
   max-width: 60px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 #smartanalyticsSection .card-box h5 {
   color: #434343;
   font-size: 26.85px;
   font-weight: 600;
-  margin-bottom: 25px !important;
-  max-width: 500px;
-  margin: auto;
+  margin-bottom: 30px;
 }
 #smartanalyticsSection .card-box p {
   color: #434343;
   font-size: 13.5px;
-  line-height: 1.45;
+  line-height: 1.65;
   text-align: left;
 }
 #smartanalyticsSection .content-box {
@@ -3122,7 +3120,7 @@ footer #footerBottom p {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  max-width: 1000px;
+  max-width: 975px;
   margin: auto;
   margin-top: 75px;
 }
@@ -3150,9 +3148,9 @@ footer #footerBottom p {
   color: #68E1E4;
   background: #000;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1080px) {
   #smartanalyticsSection .card-box {
-    max-width: 43.5%;
+    max-width: 45%;
   }
 }
 @media (max-width: 767px) {
