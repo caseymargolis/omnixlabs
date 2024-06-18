@@ -3033,7 +3033,7 @@ footer #footerBottom p {
   line-height: 1.35;
   margin-bottom: 15px;
 }
-#carwashanalyticeSection .img-box img {
+#carwashanalyticeSection .video-box iframe {
   max-width: 100%;
   margin-bottom: 15px;
 }
@@ -3063,7 +3063,7 @@ footer #footerBottom p {
   #carwashanalyticeSection .img-box {
     padding: 0;
   }
-  #carwashanalyticeSection .img-box img {
+  #carwashanalyticeSection .video-box iframe {
     max-width: 500px;
     margin-top: 30px;
     width: 100%;
