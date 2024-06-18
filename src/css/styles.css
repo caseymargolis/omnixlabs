@@ -3249,7 +3249,7 @@ footer #footerBottom p {
   padding: 0 15px;
 }
 #corfeaturesSection .row {
-  margin: 0px 0px 50px;
+  margin: 0 auto 50px;
 }
 #corfeaturesSection .img-box {
   position: absolute;
@@ -3267,7 +3267,7 @@ footer #footerBottom p {
   webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
-  padding: 30px;
+  padding: 35px;
 }
 #corfeaturesSection .info-box h4 {
   font-size: 22.85px;
@@ -3292,7 +3292,7 @@ footer #footerBottom p {
     margin-bottom: 35px;
   }
   #corfeaturesSection .row {
-    margin: 0px 0px 30px;
+    margin: 0 0 30px;
   }
 }
 @media (max-width: 575px) {
