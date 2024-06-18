@@ -2547,7 +2547,6 @@ footer #footerBottom p {
   padding-left: 0;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
 }
 #hittingserviceSection h2 {
   font-size: 40.05px;
@@ -2558,7 +2557,6 @@ footer #footerBottom p {
   color: #fff;
   font-weight: 600;
   border-left: solid 15px #68E1E4;
-  margin-right: 7.5%;
 }
 #hittingserviceSection .info-box {
   display: flex;
