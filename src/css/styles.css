@@ -3250,6 +3250,7 @@ footer #footerBottom p {
 }
 #corfeaturesSection .row {
   margin: 0 auto 50px;
+  max-width: 1050px;
 }
 #corfeaturesSection .img-box {
   position: absolute;
