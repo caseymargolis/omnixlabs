@@ -3,7 +3,8 @@
         Don't fill this out if you're human: <input name="bot-field"/>
     </label>
 </div>
-<div class="input-row grid">
+
+{# <div class="input-row grid">
     <div class="input-wrapper">
         <input
             name="email"
@@ -26,18 +27,90 @@
             aria-label="Enter your name"/>
         <label for="name">Name</label>
     </div>
+</div> #}
+
+<div class="input-row grid">
+    <div class="input-wrapper">
+        <input
+            name="first-name"
+            id="firstname"
+            class="form-control"
+            type="text"
+            required="required"
+            placeholder=" "
+            aria-label="Enter first name"/>
+        <label for="email">First Name</label>
+    </div>
+    <div class="input-wrapper">
+        <input
+            name="last-name"
+            id="lastname"
+            class="form-control"
+            type="text"
+            required="required"
+            placeholder=" "
+            aria-label="Enter last name"/>
+        <label for="name">Last Name</label>
+    </div>
+</div>
+<div class="input-row grid">
+    <div class="input-wrapper">
+        <input
+            name="company-name"
+            id="companyname"
+            class="form-control"
+            type="text"
+            required="required"
+            placeholder=" "
+            aria-label="Enter company name"/>
+        <label for="email">Company Name</label>
+    </div>
+    <div class="input-wrapper">
+        <input
+            name="city"
+            id="city"
+            class="form-control"
+            type="text"
+            required="required"
+            placeholder=" "
+            aria-label="Enter city"/>
+        <label for="name">City</label>
+    </div>
+</div>
+<div class="input-row grid">
+    <div class="input-wrapper">
+        <input
+            name="State"
+            id="state"
+            class="form-control"
+            type="text"
+            required="required"
+            placeholder=" "
+            aria-label="Enter state"/>
+        <label for="email">State</label>
+    </div>
+    <div class="input-wrapper">
+        <input
+            name="zip-code"
+            id="zipcode"
+            class="form-control"
+            type="text"
+            required="required"
+            placeholder=" "
+            aria-label="Enter zip code"/>
+        <label for="name">Zip Code</label>
+    </div>
 </div>
 <div class="input-row">
     <div class="input-wrapper">
-        <textarea
-            name="message"
-            id="message"
-            class="form-control"
-            required="required"
-            placeholder=" "
-            style="overflow: hidden;"
-            aria-label="Enter message"/></textarea>
-        <label for="message">Message</label>
+        <select name="industry" id="industry" class="form-control form-select" required="required">
+            <option value="" disabled="" selected="">
+                Select Industry
+            </option>
+            <option value="Car Wash">Car Wash</option>
+            <option value="Oil Change/Car Care">Oil Change/Car Care</option>
+            <option value="Other">Other</option>
+        </select>
     </div>
 </div>
 <div class="d-c">
