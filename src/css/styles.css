@@ -2426,6 +2426,19 @@ footer #footerBottom p {
   color: #fff;
   line-height: 1.35;
 }
+#oilsolutionsSection a {
+  color: #061D1B;
+  background: #68E1E4;
+  border: solid 1px #68E1E4;
+  font-size: 20.15px;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+#oilsolutionsSection a:hover {
+  color: #68E1E4;
+  background: #061D1B;
+}
 @media (max-width: 991px) {
   #oilsolutionsSection .row .img-box {
     flex: none;
@@ -2956,6 +2969,19 @@ footer #footerBottom p {
   color: #2DD2C9;
   font-weight: 600;
   line-height: 1.35;
+}
+#carwashanalyticsSection a {
+  color: #061D1B;
+  background: #68E1E4;
+  border: solid 1px #68E1E4;
+  font-size: 20.15px;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+#carwashanalyticsSection a:hover {
+  color: #68E1E4;
+  background: #061D1B;
 }
 @media (max-width: 991px) {
   #carwashanalyticsSection .row .img-box {
