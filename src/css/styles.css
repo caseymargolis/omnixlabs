@@ -3539,3 +3539,73 @@ footer #footerBottom p {
     width: 100%;
   }  
 }
+
+
+* ------------------------------------- */
+/* ---------- Home Page ---------- */
+/* ------------------------------------- */
+
+/* Home Here Section */
+#leveragingSection .container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+#leveragingSection .row {
+  background-color: #000;
+  margin: 0;
+}
+#leveragingSection .row .img-box {
+  padding: 0;
+}
+#leveragingSection .row .img-box img {
+  min-height: 555px;
+}
+#leveragingSection .row .info-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-content: center;
+  padding: 30px 5% 30px 30px;
+  max-width: 600px;
+}
+#leveragingSection .row h3 {
+  font-size: 43.75px;
+  color: #fff;
+  font-weight: 600;
+}
+#leveragingSection .row h5 {
+  font-size: 25.75px;
+  color: #2DD2C9;
+  font-weight: 600;
+  line-height: 1.35;
+}
+#leveragingSection a {
+  color: #061D1B;
+  background: #68E1E4;
+  border: solid 1px #68E1E4;
+  font-size: 20.15px;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+#leveragingSection a:hover {
+  color: #68E1E4;
+  background: #061D1B;
+}
+@media (max-width: 991px) {
+  #leveragingSection .row .img-box {
+    flex: none;
+  }
+  #leveragingSection .row .img-box img {
+    min-height: auto;
+  }
+  #leveragingSection .row .info-box {
+    flex: none;
+    padding: 45px 15px;
+    gap: 15px;
+  }
+  #leveragingSection .row h3 {
+    font-size: 35px;
+  }
+}
