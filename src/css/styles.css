@@ -3546,13 +3546,16 @@ footer #footerBottom p {
 /* ------------------------------------- */
 
 /* Home Here Section */
+#leveragingSection {
+  padding: 0;
+}
 #leveragingSection .container {
   width: 100%;
   max-width: 100%;
   padding: 0;
 }
 #leveragingSection .row {
-  background-color: #000;
+  background-color: #202020;
   margin: 0;
 }
 #leveragingSection .row .img-box {
