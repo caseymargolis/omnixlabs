@@ -3989,3 +3989,8 @@ footer #footerBottom p {
     font-size: 35px;
   }
 }
+
+#blackSection {
+  height: max(300px, 150px);
+  background: #000
+}
