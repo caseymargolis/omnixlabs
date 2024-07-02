@@ -2475,7 +2475,7 @@ footer #footerBottom p {
 #oilupsellingSection .row {
   background: #fff;
   border-radius: 15px;
-  webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  -webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   margin: 0 auto 30px;
@@ -2567,7 +2567,7 @@ footer #footerBottom p {
 #hittingserviceSection .card-box {
   background: #fff;
   border-radius: 15px;
-  webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  -webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   padding: 35px 35px 45px;
@@ -2687,7 +2687,7 @@ footer #footerBottom p {
 #billingaccuracySection .card-box {
   background: #fff;
   border-radius: 15px;
-  webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  -webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   padding: 35px 45px 45px;
@@ -3020,7 +3020,7 @@ footer #footerBottom p {
 #carwashanalyticeSection .card-box {
   background: #fff;
   border-radius: 15px;
-  webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  -webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   padding: 45px;
@@ -3101,7 +3101,7 @@ footer #footerBottom p {
 #smartanalyticsSection .card-box {
   background: #fff;
   border-radius: 15px;
-  webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  -webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   padding: 45px;
@@ -3276,7 +3276,7 @@ footer #footerBottom p {
 #corfeaturesSection .info-box {
   background: #CCDCE9;
   border-radius: 15px;
-  webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  -webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   padding: 35px;
@@ -3355,7 +3355,7 @@ footer #footerBottom p {
 #validationSection .card-box {
   background: #fff;
   border-radius: 15px;
-  webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  -webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   padding: 45px 60px;
@@ -3480,7 +3480,7 @@ footer #footerBottom p {
 #washjourneySection .card-box {
   background: #fff;
   border-radius: 15px;
-  webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  -webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   padding: 25px;
@@ -3990,7 +3990,87 @@ footer #footerBottom p {
   }
 }
 
+/* Industries Black Section */
 #blackSection {
-  height: max(300px, 150px);
+  background: #000;
+  padding-top: max(5%, 3.5rem);
+  padding-bottom: max(5%, 3.5rem);
   background: #000
+}
+
+/* Industries Main Blocks Section */
+#industriesmainblocksSection {
+  padding-bottom: max(5.5%, 5.5rem);
+  background: #323843;
+}
+#industriesmainblocksSection .container {
+  padding: 0;
+}
+#industriesmainblocksSection .row {
+  margin: 0 auto 50px;
+  max-width: 1050px;
+}
+#industriesmainblocksSection .img-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#industriesmainblocksSection .img-box img {
+  max-width: 200px;
+  width: 100%;
+}
+#industriesmainblocksSection .info-box {
+  background: #CCDCE9;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  padding: 35px;
+}
+#industriesmainblocksSection .info-box h4 {
+  font-size: 22.85px;
+  color: #082523;
+  font-weight: 600;
+}
+#industriesmainblocksSection .info-box hr {
+  background: #1233AF;
+  height: 2.5px;
+}
+#industriesmainblocksSection .info-box p {
+  font-size: 18.5px;
+  color: #434343;
+}
+#industriesmainblocksSection a {
+  color: #fff;
+  background: #1233AF;
+  font-size: 20.15px;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+#industriesmainblocksSection a:hover {
+  color: #1233AF;
+  background: #fff;
+}
+@media (max-width: 991px) {
+  #industriesmainblocksSection .row {
+    margin: 0 0 30px;
+  }
+}
+@media (max-width: 575px) {
+  #industriesmainblocksSection div.reverse-row {
+    flex-direction: column-reverse;
+  }
+  #industriesmainblocksSection .img-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    transform: none;
+  }
+  #industriesmainblocksSection .img-box img {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
 }
