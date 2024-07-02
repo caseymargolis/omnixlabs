@@ -3586,7 +3586,7 @@ footer #footerBottom p {
   background: #68E1E4;
   border: solid 1px #68E1E4;
   font-size: 20.15px;
-  font-weight: bold;
+  font-weight: 600;
   border-radius: 30px;
   padding: 10px 30px;
 }
@@ -3777,9 +3777,9 @@ footer #footerBottom p {
   background: #68E1E4;
   border: solid 1px #68E1E4;
   font-size: 20.15px;
-  font-weight: bold;
+  font-weight: 600;
   border-radius: 30px;
-  padding: 10px 45px;
+  padding: 10px 30px;
 }
 #seeomnixSection a:hover {
   color: #68E1E4;
@@ -3791,5 +3791,67 @@ footer #footerBottom p {
   }
   #seeomnixSection p {
     margin: 30px auto 45px;
+  }
+}
+
+/* See Omnix in action Section */
+#poweredbyomnixSection {
+  padding-top: max(6.5%, 4.5rem);
+  padding-bottom: max(6.5%, 4.5rem);
+  background-image: url(/img/home/powered-by-omnix-banner.png);
+  background-position: center;
+  background-size: cover;
+}
+#poweredbyomnixSection h3 {
+  color: #fff;
+  width: 100%;
+  font-size: 40.05px;
+  font-weight: 600;
+}
+#poweredbyomnixSection .logos-group {
+  overflow: hidden;
+  width: 2350px !important;
+  -webkit-animation: mover 15s infinite normal;
+  animation: mover 15s infinite normal;
+  animation-timing-function: linear;
+  width: 200%;
+}
+#poweredbyomnixSection .logos-group::-webkit-scrollbar {
+  display: none;
+}
+#poweredbyomnixSection .logos-group {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  flex-direction: row !important;
+  flex-wrap: nowrap;
+  margin-top: 45px; /* Firefox */
+}
+#poweredbyomnixSection .partnerLogo {
+  background: #ffffff;
+  margin: 1.2rem 1.8rem;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  #poweredbyomnixSection h3 {
+    font-size: 35px;
+  }
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
