@@ -3559,6 +3559,7 @@ footer #footerBottom p {
   padding: 0;
 }
 #leveragingSection .row .img-box img {
+  width: 100%;
   min-height: 555px;
 }
 #leveragingSection .row .info-box {
@@ -3566,8 +3567,8 @@ footer #footerBottom p {
   flex-wrap: wrap;
   gap: 30px;
   align-content: center;
-  padding: 30px 5% 30px 30px;
-  max-width: 600px;
+  padding: 30px 5% 30px 2.5%;
+  max-width: 575px;
 }
 #leveragingSection .row h3 {
   font-size: 43.75px;
@@ -3585,7 +3586,7 @@ footer #footerBottom p {
   background: #68E1E4;
   border: solid 1px #68E1E4;
   font-size: 20.15px;
-  font-weight: 600;
+  font-weight: bold;
   border-radius: 30px;
   padding: 10px 30px;
 }
