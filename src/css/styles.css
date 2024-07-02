@@ -3796,17 +3796,22 @@ footer #footerBottom p {
 
 /* See Omnix in action Section */
 #poweredbyomnixSection {
-  padding-top: max(6.5%, 4.5rem);
-  padding-bottom: max(6.5%, 4.5rem);
+  padding-top: max(7.5%, 4.5rem);
+  padding-bottom: max(7.5%, 4.5rem);
   background-image: url(/img/home/powered-by-omnix-banner.png);
   background-position: center;
   background-size: cover;
+}
+#poweredbyomnixSection .container {
+  overflow: hidden;
+  max-width: 1375px;
 }
 #poweredbyomnixSection h3 {
   color: #fff;
   width: 100%;
   font-size: 40.05px;
   font-weight: 600;
+  text-align: center;
 }
 #poweredbyomnixSection .logos-group {
   overflow: hidden;
@@ -3828,15 +3833,19 @@ footer #footerBottom p {
 }
 #poweredbyomnixSection .partnerLogo {
   background: #ffffff;
-  margin: 1.2rem 1.8rem;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+  margin: 1.05rem 0.75rem;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.075);
   border-radius: 10px;
   display: flex;
   align-items: center;
+  padding: 5px 30px;
 }
 @media (max-width: 767px) {
   #poweredbyomnixSection h3 {
     font-size: 35px;
+  }
+  #poweredbyomnixSection .logos-group {
+    margin-top: 30px; /* Firefox */
   }
 }
 @-webkit-keyframes mover {
