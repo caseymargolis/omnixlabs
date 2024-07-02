@@ -3613,7 +3613,7 @@ footer #footerBottom p {
 
 /* Understanding Your Challenges Section */
 #challengesSection {
-  padding-top: max(5.5%, 5.5rem);
+  padding-top: max(5.5%, 3.5rem);
   background: #1233AF;
 }
 #challengesSection .container {
@@ -3634,14 +3634,17 @@ footer #footerBottom p {
   text-align: center;
   font-size: 16.5px;
   color: #fff;
-  margin: 30px auto 45px;
+  margin: 30px auto;
 }
 #challengesSection .group-box {
-  max-width: 1145px;
+  max-width: 1250px;
   margin: auto;
 }
 #challengesSection .img-box {
   position: relative;
+}
+#challengesSection .img-box img {
+  width: 100%;
 }
 #challengesSection .img-box h5 {
   font-size: 31.25px;
@@ -3670,18 +3673,60 @@ footer #footerBottom p {
   }
 }
 @media (max-width: 575px) {
-  #challengesSection {
-    padding-top: 50px;
-  }
   #challengesSection .header-content {
     margin:0 -15px;
   }
   #challengesSection .group-box {
-    max-width: 1145px;
     margin:0 -15px;
     gap: 15px;
   }
   #challengesSection .img-box h5 {
     font-size: 30px;
+  }
+}
+
+/* How It Works Section */
+#howitworksSection {
+  padding-top: max(5.5%, 3.5rem);
+  padding-top: max(7.5%, 5.5rem);
+  background-image: url(/img/home/how-it-works-banner.png);
+  background-position: center;
+  background-size: cover;
+}
+#howitworksSection .container {
+  max-width: 750px;
+}
+#howitworksSection h2 {
+  text-align: center;
+  font-size: 43.75px;
+  color: #fff;
+  font-weight: 600;
+}
+#howitworksSection p {
+  text-align: center;
+  font-size: 16.5px;
+  color: #fff;
+  margin: 30px auto;
+}
+#howitworksSection .img-box {
+  background: #fff;
+  border-radius: 15px;
+}
+#howitworksSection .img-box img {
+  max-width: 105px;
+}
+#howitworksSection .img-box h5 {
+  font-size: 21.65px;
+  color: #323843;
+  font-weight: 600;
+}
+@media (max-width: 991px) {
+  #howitworksSection h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 575px) {
+  #howitworksSection .group-box {
+    gap: 15px;
   }
 }
