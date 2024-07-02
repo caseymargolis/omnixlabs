@@ -3638,7 +3638,7 @@ footer #footerBottom p {
 }
 #challengesSection .group-box {
   max-width: 1250px;
-  margin: auto;
+  margin: 25px auto 0;
 }
 #challengesSection .img-box {
   position: relative;
@@ -3677,7 +3677,7 @@ footer #footerBottom p {
     margin:0 -15px;
   }
   #challengesSection .group-box {
-    margin:0 -15px;
+    margin:15px -15px 0;
     gap: 15px;
   }
   #challengesSection .img-box h5 {
@@ -3687,20 +3687,21 @@ footer #footerBottom p {
 
 /* How It Works Section */
 #howitworksSection {
-  padding-top: max(5.5%, 3.5rem);
-  padding-top: max(7.5%, 5.5rem);
+  padding-top: max(7.5%, 4.5rem);
+  padding-bottom: max(10.5%, 7.5rem);
   background-image: url(/img/home/how-it-works-banner.png);
   background-position: center;
   background-size: cover;
 }
 #howitworksSection .container {
-  max-width: 750px;
+  max-width: 815px;
 }
 #howitworksSection h2 {
   text-align: center;
   font-size: 43.75px;
   color: #fff;
   font-weight: 600;
+  margin-bottom: 45px;
 }
 #howitworksSection p {
   text-align: center;
@@ -3708,25 +3709,87 @@ footer #footerBottom p {
   color: #fff;
   margin: 30px auto;
 }
+#howitworksSection .group-box {
+  margin-top: 45px;
+}
 #howitworksSection .img-box {
   background: #fff;
   border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  height: 100%;
 }
 #howitworksSection .img-box img {
-  max-width: 105px;
+  max-width: 100px;
 }
 #howitworksSection .img-box h5 {
   font-size: 21.65px;
   color: #323843;
   font-weight: 600;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
 }
 @media (max-width: 991px) {
   #howitworksSection h2 {
     font-size: 35px;
+    margin-bottom: 0;
   }
 }
 @media (max-width: 575px) {
   #howitworksSection .group-box {
     gap: 15px;
+    margin-top: 0px;
+  }
+}
+
+/* See Omnix in action Section */
+#seeomnixSection {
+  padding-top: max(6.5%, 4.5rem);
+  padding-bottom: max(5.5%, 3.5rem);
+  background-image: url(/img/home/omnix-in-action.png);
+  background-position: center;
+  background-size: cover;
+}
+#seeomnixSection .info-box {
+  text-align: center;
+}
+#seeomnixSection h3 {
+  color: #fff;
+  width: 100%;
+  font-size: 40.05px;
+  font-weight: bold;
+}
+#seeomnixSection p {
+  color: #fff;
+  font-size: 17.5px;
+  line-height: 1.45;
+  font-weight: 600;
+  max-width: 750px;
+  margin-top: 30px auto 45px;
+}
+#seeomnixSection a {
+  color: #000;
+  background: #68E1E4;
+  border: solid 1px #68E1E4;
+  font-size: 20.15px;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px 45px;
+}
+#seeomnixSection a:hover {
+  color: #68E1E4;
+  background: #000;
+}
+@media (max-width: 767px) {
+  #seeomnixSection h3 {
+    font-size: 35px;
+  }
+  #seeomnixSection p {
+    margin-top: 20px auto 30px;
   }
 }
