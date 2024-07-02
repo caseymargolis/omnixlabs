@@ -3930,3 +3930,59 @@ footer #footerBottom p {
     margin:0 -15px;
   }
 }
+
+/* ------------------------------------- */
+/* ---------- Industries Page ---------- */
+/* ------------------------------------- */
+
+/* Industries Hero Section */
+#industriessupportedSection .container {
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+}
+#industriessupportedSection .row {
+  background-color: #202020;
+  margin: 0;
+}
+#industriessupportedSection .row .img-box {
+  padding: 0;
+}
+#leveragindustriessupportedSectioningSection .row .img-box img {
+  width: 100%;
+  min-height: 645px;
+}
+#industriessupportedSection .row .info-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-content: center;
+  padding: 30px;
+}
+#industriessupportedSection .row h3 {
+  font-size: 43.75px;
+  color: #fff;
+  font-weight: 600;
+}
+#industriessupportedSection .row h5 {
+  font-size: 25.75px;
+  color: #2DD2C9;
+  font-weight: 600;
+  line-height: 1.35;
+}
+@media (max-width: 991px) {
+  #industriessupportedSection .row .img-box {
+    flex: none;
+  }
+  #industriessupportedSection .row .img-box img {
+    min-height: auto;
+  }
+  #industriessupportedSection .row .info-box {
+    flex: none;
+    padding: 45px 15px;
+    gap: 15px;
+  }
+  #industriessupportedSection .row h3 {
+    font-size: 35px;
+  }
+}
