@@ -3948,9 +3948,9 @@ footer #footerBottom p {
 #industriessupportedSection .row .img-box {
   padding: 0;
 }
-#leveragindustriessupportedSectioningSection .row .img-box img {
+#industriessupportedSection .row .img-box img {
   width: 100%;
-  min-height: 645px;
+  min-height: 500px;
 }
 #industriessupportedSection .row .info-box {
   display: flex;
@@ -3963,12 +3963,14 @@ footer #footerBottom p {
   font-size: 43.75px;
   color: #fff;
   font-weight: 600;
+  max-width: 500px;
 }
 #industriessupportedSection .row h5 {
   font-size: 25.75px;
   color: #2DD2C9;
   font-weight: 600;
   line-height: 1.35;
+  max-width: 435px;
 }
 @media (max-width: 991px) {
   #industriessupportedSection .row .img-box {
@@ -3981,6 +3983,7 @@ footer #footerBottom p {
     flex: none;
     padding: 45px 15px;
     gap: 15px;
+    max-width: 100%;
   }
   #industriessupportedSection .row h3 {
     font-size: 35px;
