@@ -3688,7 +3688,7 @@ footer #footerBottom p {
 /* How It Works Section */
 #howitworksSection {
   padding-top: max(7.5%, 4.5rem);
-  padding-bottom: max(10.5%, 7.5rem);
+  padding-bottom: max(12.5%, 8.5rem);
   background-image: url(/img/home/how-it-works-banner.png);
   background-position: center;
   background-size: cover;
@@ -3749,11 +3749,12 @@ footer #footerBottom p {
 
 /* See Omnix in action Section */
 #seeomnixSection {
-  padding-top: max(6.5%, 4.5rem);
-  padding-bottom: max(5.5%, 3.5rem);
+  padding-top: max(12.5%, 6.5rem);
+  padding-bottom: max(6.5%, 4.5rem);
   background-image: url(/img/home/omnix-in-action.png);
-  background-position: center;
+  background-position: top right;
   background-size: cover;
+  margin-top: -10%;
 }
 #seeomnixSection .info-box {
   text-align: center;
@@ -3762,15 +3763,14 @@ footer #footerBottom p {
   color: #fff;
   width: 100%;
   font-size: 40.05px;
-  font-weight: bold;
+  font-weight: 600;
 }
 #seeomnixSection p {
   color: #fff;
   font-size: 17.5px;
   line-height: 1.45;
-  font-weight: 600;
-  max-width: 750px;
-  margin-top: 30px auto 45px;
+  max-width: 675px;
+  margin: 40px auto 60px;
 }
 #seeomnixSection a {
   color: #000;
@@ -3790,6 +3790,6 @@ footer #footerBottom p {
     font-size: 35px;
   }
   #seeomnixSection p {
-    margin-top: 20px auto 30px;
+    margin: 30px auto 45px;
   }
 }
