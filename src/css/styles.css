@@ -3586,7 +3586,7 @@ footer #footerBottom p {
   background: #68E1E4;
   border: solid 1px #68E1E4;
   font-size: 20.15px;
-  font-weight: 600;
+  font-weight: bold;
   border-radius: 30px;
   padding: 10px 30px;
 }
@@ -3884,11 +3884,17 @@ footer #footerBottom p {
   max-width: 1250px;
   margin: 0 auto;
 }
+#homeblogSection .blog-content .article-container {
+  margin-top: max(3.5%, 1.5rem);
+}
 #homeblogSection .blog-content a.article {
   background: #fff;
   box-shadow: none;
   padding: 20px;
   border-radius: 15px;
+}
+#homeblogSection .blog-content a.article img {
+  border-radius: 10px;
 }
 #homeblogSection .blog-content a.article .article-preview {
   display: none;
@@ -3898,17 +3904,15 @@ footer #footerBottom p {
   text-transform: uppercase;
   font-size: 14.85px;
   margin-top: 1.5rem;
-  margin-top: 1rem;
 }
 #homeblogSection .blog-content a.article .article-title {
   color: #082523!important;
-  text-transform: lowercase;
   text-transform: capitalize;
   font-size: 16.65px;
   line-height: 1.35;
 }
 #homeblogSection .footer-image {
-  margin-top: -19.5%;
+  margin-top: -17.5%;
 }
 #homeblogSection .footer-image img {
   width: 100%;
@@ -3922,7 +3926,7 @@ footer #footerBottom p {
   #homeblogSection .header-content {
     margin:0 -15px;
   }
-  #homeblogSection .bolg-content {
+  #homeblogSection .blog-content {
     margin:0 -15px;
   }
 }
