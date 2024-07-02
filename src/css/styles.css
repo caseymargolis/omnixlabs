@@ -3614,11 +3614,17 @@ footer #footerBottom p {
 /* Understanding Your Challenges Section */
 #challengesSection {
   padding-top: max(5.5%, 5.5rem);
-  padding-bottom: max(5.5%, 5.5rem);
   background: #1233AF;
 }
+#challengesSection .container {
+  width: 100%;
+  max-width: 100%;
+}
+#leveragingSection .row {
+  margin: 0;
+}
 #challengesSection .header-content {
-  max-width: 1000px;
+  max-width: 750px;
   margin:auto;
 }
 #challengesSection h2 {
@@ -3634,17 +3640,14 @@ footer #footerBottom p {
   margin: 45px auto 50px;
 }
 #challengesSection .img-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
-  -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
-  box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+ 
 }
 #challengesSection .img-box h5 {
   font-size: 31.25px;
   color: #fff;
+}
+#challengesSection .footer-image {
+  width: 100%;
 }
 @media (max-width: 991px) {
   #challengesSection h2 {
