@@ -156,5 +156,27 @@
       </div>
     </div>
   </section>
+
+  <!-- Blog Section -->
+  <section id="challengesSection">
+    <div class="container">
+      <div class="row header-content">
+        <div class="col-sm-12">
+          <h2>Blog</h2>
+        </div>
+      </div>
+      <div class="row article-row article-no-container blog-content">
+        {# {%- for post in collections.blog | reverse -%} {%if loop.index0 <
+        6 %} {%include 'article-snippet.njk'%} {%endif%} {%- endfor -%} #} {%
+        set count = 0 %} {%- for post in collections.blog | reverse -%} {%
+        if post.data.tags.includes("blog") and count < 6 %} {% include
+        'article-snippet.njk' %} {% set count = count + 1 %} {% endif %} {%-
+        endfor -%}
+      </div>
+      <div class="row footer-image">
+        <img src="/img/home/blog-bottom-img.png" class="img-fluid" />
+      </div>
+    </div>  
+  </section>
   
 </main>

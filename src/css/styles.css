@@ -3864,3 +3864,42 @@ footer #footerBottom p {
     transform: translateX(-50%);
   }
 }
+
+/* Home Blog Section */
+#homeblogSection {
+  padding-top: max(5.5%, 3.5rem);
+  background: #CCDCE9;
+}
+#homeblogSection .container {
+  width: 100%;
+  max-width: 100%;
+}
+#homeblogSection h2 {
+  text-align: center;
+  font-size: 46.5px;
+  color: #000;
+  font-weight: 600;
+}
+#homeblogSection .bolg-content {
+  max-width: 1250px;
+  margin: 25px auto 0;
+}
+#homeblogSection .footer-image {
+  margin-top: -12.5%;
+}
+#homeblogSection .footer-image img {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  #homeblogSection h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 575px) {
+  #homeblogSection .header-content {
+    margin:0 -15px;
+  }
+  #homeblogSection .bolg-content {
+    margin:15px -15px 0;
+  }
+}
