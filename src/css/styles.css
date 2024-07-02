@@ -4000,7 +4000,7 @@ footer #footerBottom p {
 
 /* Industries Main Blocks Section */
 #industriesmainblocksSection {
-  padding-bottom: max(4.5%, 3.5rem);
+  padding-bottom: max(4.5%, 2.5rem);
   background: #323843;
 }
 #industriesmainblocksSection .container {
@@ -4009,16 +4009,13 @@ footer #footerBottom p {
 #industriesmainblocksSection .row {
   margin: 0 auto 45px;
   align-items: center;
-  max-width: 1000px;
-  background: #CCDCE9;
+  max-width: 915px;
+  background: #fff;
   border-radius: 15px;
   -webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   padding: 30px 15px;
-}
-#industriesmainblocksSection .img-box {
-  margin-right: -15px;
 }
 #industriesmainblocksSection .img-box img {
   width: 100%;
@@ -4051,26 +4048,18 @@ footer #footerBottom p {
 }
 #industriesmainblocksSection a:hover {
   color: #1233AF;
-  background: #fff;
+  background: transparent;
 }
 @media (max-width: 991px) {
   #industriesmainblocksSection .row {
-    margin: 0 0 30px;
+    margin: 0 15px 30px;
   }
 }
 @media (max-width: 575px) {
   #industriesmainblocksSection div.reverse-row {
     flex-direction: column-reverse;
   }
-  #industriesmainblocksSection .img-box {
-    position: relative;
-    top: 0;
-    left: 0;
-    text-align: center;
-    transform: none;
-  }
   #industriesmainblocksSection .img-box img {
-    max-width: 150px;
     margin-bottom: 20px;
   }
 }
