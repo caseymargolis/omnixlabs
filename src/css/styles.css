@@ -3560,7 +3560,7 @@ footer #footerBottom p {
 }
 #leveragingSection .row .img-box img {
   width: 100%;
-  min-height: 555px;
+  min-height: 645px;
 }
 #leveragingSection .row .info-box {
   display: flex;
@@ -3608,5 +3608,52 @@ footer #footerBottom p {
   }
   #leveragingSection .row h3 {
     font-size: 35px;
+  }
+}
+
+/* Understanding Your Challenges Section */
+#challengesSection {
+  padding-top: max(5.5%, 5.5rem);
+  padding-bottom: max(5.5%, 5.5rem);
+  background: #1233AF;
+}
+#challengesSection .header-content {
+  max-width: 1000px;
+  margin:auto;
+}
+#challengesSection h2 {
+  text-align: center;
+  font-size: 43.75px;
+  color: #fff;
+  font-weight: 600;
+}
+#challengesSection p {
+  text-align: center;
+  font-size: 16.5px;
+  color: #fff;
+  margin: 45px auto 50px;
+}
+#challengesSection .img-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+  box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
+}
+#challengesSection .img-box h5 {
+  font-size: 31.25px;
+  color: #fff;
+}
+@media (max-width: 991px) {
+  #challengesSection h2 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 575px) {
+  #challengesSection {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
