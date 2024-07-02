@@ -3620,9 +3620,6 @@ footer #footerBottom p {
   width: 100%;
   max-width: 100%;
 }
-#leveragingSection .row {
-  margin: 0;
-}
 #challengesSection .header-content {
   max-width: 750px;
   margin:auto;
@@ -3637,26 +3634,54 @@ footer #footerBottom p {
   text-align: center;
   font-size: 16.5px;
   color: #fff;
-  margin: 45px auto 50px;
+  margin: 30px auto 45px;
+}
+#challengesSection .group-box {
+  max-width: 1145px;
+  margin: auto;
 }
 #challengesSection .img-box {
- 
+  position: relative;
 }
 #challengesSection .img-box h5 {
   font-size: 31.25px;
+  line-height: 1.05em;
   color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  text-align: center;
+  display: block;
+  width: 100%;
 }
 #challengesSection .footer-image {
+  margin-top: -12.5%;
+}
+#challengesSection .footer-image img {
   width: 100%;
 }
 @media (max-width: 991px) {
   #challengesSection h2 {
     font-size: 35px;
   }
+  #challengesSection .img-box h5 {
+    font-size: 23.5px;
+  }
 }
 @media (max-width: 575px) {
   #challengesSection {
     padding-top: 50px;
-    padding-bottom: 50px;
+  }
+  #challengesSection .header-content {
+    margin:0 -15px;
+  }
+  #challengesSection .group-box {
+    max-width: 1145px;
+    margin:0 -15px;
+    gap: 15px;
+  }
+  #challengesSection .img-box h5 {
+    font-size: 30px;
   }
 }
