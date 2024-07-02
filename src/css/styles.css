@@ -3934,6 +3934,9 @@ footer #footerBottom p {
 /* ------------------------------------- */
 /* ---------- Industries Page ---------- */
 /* ------------------------------------- */
+#omnix-industriesBody {
+  background: #323843;
+}
 
 /* Industries Hero Section */
 #industriessupportedSection .container {
@@ -4001,7 +4004,7 @@ footer #footerBottom p {
 /* Industries Main Blocks Section */
 #industriesmainblocksSection {
   padding-bottom: max(4.5%, 2.5rem);
-  background: #323843;
+  margin-top: -45px;
 }
 #industriesmainblocksSection .container {
   padding: 0;
