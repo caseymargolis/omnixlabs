@@ -2638,7 +2638,7 @@ footer #footerBottom p {
 #getstartedSection a {
   color: #fff;
   background: #1233AF;
-  border: solid 1px #1233AF;
+  /* border: solid 1px #1233AF; */
   font-size: 20.15px;
   font-weight: 600;
   border-radius: 30px;
