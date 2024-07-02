@@ -4000,33 +4000,29 @@ footer #footerBottom p {
 
 /* Industries Main Blocks Section */
 #industriesmainblocksSection {
-  padding-bottom: max(5.5%, 5.5rem);
+  padding-bottom: max(4.5%, 3.5rem);
   background: #323843;
 }
 #industriesmainblocksSection .container {
   padding: 0;
 }
 #industriesmainblocksSection .row {
-  margin: 0 auto 50px;
-  max-width: 1050px;
-}
-#industriesmainblocksSection .img-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-#industriesmainblocksSection .img-box img {
-  max-width: 200px;
-  width: 100%;
-}
-#industriesmainblocksSection .info-box {
+  margin: 0 auto 45px;
+  align-items: center;
+  max-width: 1000px;
   background: #CCDCE9;
   border-radius: 15px;
   -webkit-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   -moz-box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
   box-shadow: 0px 2.5px 5px 2.5px rgba(100, 100, 100, 0.25);
-  padding: 35px;
+  padding: 30px 15px;
+}
+#industriesmainblocksSection .img-box {
+  margin-right: -15px;
+}
+#industriesmainblocksSection .img-box img {
+  width: 100%;
+  border-radius: 15px;
 }
 #industriesmainblocksSection .info-box h4 {
   font-size: 22.85px;
@@ -4045,9 +4041,13 @@ footer #footerBottom p {
   color: #fff;
   background: #1233AF;
   font-size: 20.15px;
+  border: solid 2.5px #1233AF;
   font-weight: 600;
   border-radius: 30px;
-  padding: 10px 30px;
+  padding: 7.5px 30px;
+  display: block;
+  max-width: 200px;
+  text-align: center;
 }
 #industriesmainblocksSection a:hover {
   color: #1233AF;
