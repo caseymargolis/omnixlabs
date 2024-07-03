@@ -3640,6 +3640,10 @@ footer #footerBottom p {
 }
 #challengesSection .img-box img {
   width: 100%;
+  transition: transform 0.45s ease;
+}
+#challengesSection .img-box img:hover {
+  transform: scale(0.95);
 }
 #challengesSection .img-box h5 {
   font-size: 31.25px;
