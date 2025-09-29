@@ -31,7 +31,7 @@
     <div class="row d-c" id="footerBottom">
       <div class="col-lg">
         <p>
-          Copyright © <script>new Date().getFullYear()</script> omniX labs
+          Copyright © <span id="currentYear"></span> omniX labs
         </p>
       </div>
       <div class="col-lg">
@@ -46,3 +46,7 @@
     </div>
   </div>
 </footer>
+
+<script>
+  document.getElementById('currentYear').innerHTML = new Date().getFullYear();
+</script>
